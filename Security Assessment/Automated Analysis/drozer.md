@@ -1,5 +1,15 @@
 # Drozer
 
+### Overview
+
+drozer (formerly Mercury) is the leading security testing framework for Android.
+
+drozer allows you to search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS.
+
+drozer provides tools to help you use, share and understand public Android exploits. It helps you to deploy a drozer Agent to a device through exploitation or social engineering. Using weasel (MWR's advanced exploitation payload) drozer is able to maximise the permissions available to it by installing a full agent, injecting a limited agent into a running process, or connecting a reverse shell to act as a Remote Access Tool (RAT).
+
+**Source:** https://github.com/mwrlabs/drozer
+
 ### How to use with AndroidTamer
 
 Drozer is already pre configured within AndroidTamer. However there are some steps required before starting drozer.
@@ -17,7 +27,7 @@ Drozer is already pre configured within AndroidTamer. However there are some ste
 
 ### Dynamic Assessment via Drozer
 
-Drozer at this point doesn't provide html/xml style reporting the report output is directly provided to the console.
+Drozer at this point doesn't provide html/xml style reporting, instead the report output is directly provided to the console.
 
 AndroidTamer has a build in script which will automatically run all the modules that are available in drozer and will give you a textual output on screen. Its advised to save the output in a text file for further / delayed analysis.
 
@@ -29,17 +39,19 @@ AndroidTamer has a build in script which will automatically run all the modules 
 
 ### Known issues
 
-__Question:__ Why am i getting error "Magic number incorrect"
+__Question:__ Why am I getting error "Magic number incorrect" ?
 
 __Answer:__
-You are running drozer on a x86 machine or genymotion emulator. there is a known issue and that's the reason why you get those errors.
+You are running drozer on a x86 machine or genymotion emulator. There is a known issue and that's the reason why you get those errors.
 [Refer here](https://github.com/mwrlabs/drozer/issues/203)
 
-__Question:__ Drozer caused error's.
+__Question:__ Drozer caused errors
 
 __Answer:__ 
-If you find error in drozer please [raise an issue here](https://github.com/mwrlabs/drozer/issues/) however if you feel issue is with the automation please [raise an issue here](https://github.com/AndroidTamer/Tools_Repository/issues)
+If you find error in drozer please [raise an issue here](https://github.com/mwrlabs/drozer/issues/). However, if you feel issue is with the automation please [raise an issue here](https://github.com/AndroidTamer/Tools_Repository/issues).
 
-### Software Details
-#### MWR Labs
-URL [https://labs.mwrinfosecurity.com/tools/drozer/](https://labs.mwrinfosecurity.com/tools/drozer/)
+### External Links
+- [AndroidTamer drozer repository (Github)](https://github.com/AndroidTamer/drozer)
+- [Original Github repository](https://github.com/mwrlabs/drozer)
+- [Official Webpage](https://labs.mwrinfosecurity.com/tools/drozer/)
+- [Drozer User Guide](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-drozer-user-guide-2015-03-23.pdf)
