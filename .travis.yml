@@ -1,0 +1,52 @@
+language: python
+python:
+- '2.7'
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_48b5285fe911_key -iv $encrypted_48b5285fe911_iv -in .toolskey.enc -out .toolskey -d
+
+branches:
+  except:
+  - gh-pages
+
+install:
+- pip install mkdocs
+- pip install python-markdown-oembed
+- pip install markdown-newtab
+- pip install markdown-checklist
+- pip install linkchecker
+
+
+before_script:
+  # Replace with the line that travis encrypt-file printed out
+  - git config remote.origin.url git@github.com:${TRAVIS_REPO_SLUG}
+  - COMMIT_MESSAGE="Test Commit `date "+%Y-%m-%d %H:%M:%S"` from `git log -n 1 --format='commit %h - %s'`"
+
+script:
+- mkdocs build --clean
+
+after_success: >
+  echo $TRAVIS_BRANCH; echo $TRAVIS_PULL_REQUEST;
+  if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
+    echo "Will Deploy From Here"
+    rm -rf .git ;
+    chmod go-rwx .travisdeploykey
+    eval `ssh-agent -s`
+    ssh-add .travisdeploykey
+    cd site
+    python -m SimpleHTTPServer &
+    PID=$!
+    echo PID
+    ps aux | grep SimpleHTTPServer
+    linkchecker http://127.0.0.1:8000/
+    kill -KILL $PID
+    ps aux | grep SimpleHTTPServer
+    echo "tools.androidtamer.com" > ./CNAME
+    git init ;
+    git add . ;
+    git config --global user.name "Anant Shrivastava via Travis-CI";
+    git config --global user.email "anant+travisci@anantshri.info";
+    git commit -m "Deploy Travis CI build $TRAVIS_BUILD_NUMBER to GitHub pages";
+    git push -v -f git@github.com:${TRAVIS_REPO_SLUG} master:gh-pages
+    echo "Deployed";
+  fi

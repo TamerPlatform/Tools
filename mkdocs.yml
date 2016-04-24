@@ -1,0 +1,11 @@
+site_name: AndroidTamer
+site_description: Documentation for Android Tamer
+site_author: AndroidTamer Team
+docs_dir: ./
+#theme: readthedocs
+markdown_extensions:
+  - markdown_newtab
+  - oembed
+  - markdown_checklist.extension
+include_next_prev: false
+copyright: (c) Android Tamer Team
