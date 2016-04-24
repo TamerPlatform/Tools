@@ -9,3 +9,4 @@ markdown_extensions:
   - markdown_checklist.extension
 include_next_prev: false
 copyright: (c) Android Tamer Team
+site_favicon: favicon.ico
