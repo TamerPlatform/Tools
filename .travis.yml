@@ -30,9 +30,9 @@ after_success: >
   if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
     echo "Will Deploy From Here"
     rm -rf .git ;
-    chmod go-rwx .travisdeploykey
+    chmod go-rwx .toolskey
     eval `ssh-agent -s`
-    ssh-add .travisdeploykey
+    ssh-add .toolskey
     cd site
     python -m SimpleHTTPServer &
     PID=$!
