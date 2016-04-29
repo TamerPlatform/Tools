@@ -33,7 +33,7 @@ after_success: >
     chmod go-rwx .toolskey
     eval `ssh-agent -s`
     ssh-add .toolskey
-    cd site
+    cd ../site
     python -m SimpleHTTPServer &
     PID=$!
     echo PID

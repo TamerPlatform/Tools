@@ -2,6 +2,7 @@ site_name: AndroidTamer
 site_description: Documentation for Android Tamer
 site_author: AndroidTamer Team
 docs_dir: ./
+#site_dir: ../site/  
 #theme: readthedocs
 markdown_extensions:
   - markdown_newtab
@@ -10,3 +11,4 @@ markdown_extensions:
 include_next_prev: false
 copyright: (c) Android Tamer Team
 site_favicon: favicon.ico
+#theme_dir: theme

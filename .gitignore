@@ -1,4 +1,4 @@
 site/
 .DS_Store
-.travisdeploykey
-.travisdeploykey.pub
+.toolskey
+.toolskey.pub
