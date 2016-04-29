@@ -33,6 +33,9 @@ after_success: >
     chmod go-rwx .toolskey
     eval `ssh-agent -s`
     ssh-add .toolskey
+    pwd
+    ls -l ../
+    ls -l ~/AndroidTamer/
     cd ../site
     python -m SimpleHTTPServer &
     PID=$!
