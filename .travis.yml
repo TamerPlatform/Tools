@@ -34,8 +34,9 @@ after_success: >
     eval `ssh-agent -s`
     ssh-add .toolskey
     pwd
+    mkdocs build --clean
     ls -l ../
-    ls -l ~/AndroidTamer/
+    ls -l ~/build/AndroidTamer/
     cd ../site
     python -m SimpleHTTPServer &
     PID=$!
