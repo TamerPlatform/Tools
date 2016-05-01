@@ -4,9 +4,9 @@ mindmap: true
 # MindMap: Tools Present in AndroidTamer
 * Android Tamer 4
     - Custom Tools
-        + adb wrapper (multidevice etc)
-        + apk2java
-        + drozer-checks
+        + adb wrapper : [multidevice](multi_devices.md) [screenshot](screenshot.md) and more
+        + [apk2java](decompile.md)
+        + [drozer-checks](drozer.md)
     - Google Tools 
         + Android SDK
         + Android NDK
@@ -16,8 +16,8 @@ mindmap: true
         + visualvm
         + gradle
     - Static and Dynamic Analysis
-        + MobSF
-        + drozer
+        + [MobSF](MobSF.md)
+        + [drozer](drozer.md)
         + findbug
         + flawfinder
     - Reverse Enginering
