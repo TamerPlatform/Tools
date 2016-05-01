@@ -20,7 +20,7 @@ ul {
  margin-bottom: 12px;
 }
 
-ul ul {
+.mindmap > ul ul {
 	border-left: 1px solid black;
 	margin-bottom: 10px;
 	padding-top: 10px;
@@ -30,7 +30,7 @@ ul ul {
 	position: relative;
 }
 
-ul ul:after{
+.mindmap > ul ul:after{
 	width: 16px;
 	height: 16px;
 	/*background-color: red;*/
