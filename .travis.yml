@@ -15,6 +15,7 @@ install:
 - pip install markdown-newtab
 - pip install markdown-checklist
 - pip install linkchecker
+- pip install requests
 
 
 before_script:
