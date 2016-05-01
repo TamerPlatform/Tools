@@ -19,6 +19,14 @@ AndroidTamer is pre-configured with 1 GB of Base Memory (RAM), however 1.5 GB is
 
 ### Release Notes
 
+AndroidTamer has Debian 8 as its base machine. The are a many reasons why Debian was chosen instead of Ubuntu. It comes with some custom scripts which simplifies the life of Android pentester.
+
+The credentials for AndroidTamer is :
+
+> ***Username***: android
+
+> ***Password***: tamer
+
 The latest version of Android Tamer is compatible with both VirtualBox and VMware.
 
 The history of compatibility of previous releases:
