@@ -62,6 +62,6 @@ mindmap: true
         + fatcat
         + foremost
     - Rom Development
-        + fastboot
-        + heimdall
+        + [fastboot](fastboot.md)
+        + [heimdall](heimdall.md)
         + flashrom

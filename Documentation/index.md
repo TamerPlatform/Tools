@@ -46,21 +46,21 @@ A short introduction to AndroidTamer is listed below.
 
 Name | x86 | x64
 --- | --- | ---
-androidtamer-adb | &#10004; | &#10004;
+androidtamer-adb: [multidevice](multi_devices) & [screenshot](screenshot.md) | &#10004; | &#10004;
 andbug | &#x2718; | &#10004;
-apk2java | &#10004; | &#10004;
+[apk2java](decompile.md) | &#10004; | &#10004;
 apktool | &#10004; | &#10004;
 bytecode-viewer | &#x2718; | &#10004;
 burpsuite-free | &#10004; | &#10004;
 classyshark | &#10004; | &#10004;
 dex2jar | &#10004; | &#10004;
 drozer | &#10004; | &#10004;
-drozer_checks | &#10004; | &#10004;
+[drozer_checks](drozer.md) | &#10004; | &#10004;
 enjarify | &#10004; | &#10004;
 jad | &#10004; | &#10004;
 jadx | &#10004; | &#10004;
 jd-gui | &#10004; | &#10004;
-MobSF | &#10004; | &#10004;
+[MobSF](MobSF.md) | &#10004; | &#10004;
 python packages | | 
 - python-cement | &#10004; | &#10004;
 - python-configparser | &#10004; | &#10004;
