@@ -6,7 +6,7 @@ mindmap: true
     - Custom Tools
         + adb wrapper : [multidevice](multi_devices.md) [screenshot](screenshot.md) and more
         + [apk2java](decompile.md)
-        + [drozer-checks](drozer.md)
+        + [drozer-checks](/Security Assessment/Automated Analysis/drozer.md)
     - Google Tools 
         + Android SDK
         + Android NDK
@@ -16,8 +16,8 @@ mindmap: true
         + visualvm
         + gradle
     - Static and Dynamic Analysis
-        + [MobSF](MobSF.md)
-        + [drozer](drozer.md)
+        + [MobSF](/Security Assessment/Automated Analysis/MobSF.md)
+        + [drozer](/Security Assessment/Automated Analysis/drozer.md)
         + findbug
         + flawfinder
     - Reverse Enginering
@@ -62,6 +62,6 @@ mindmap: true
         + fatcat
         + foremost
     - Rom Development
-        + [fastboot](fastboot.md)
-        + [heimdall](heimdall.md)
+        + [fastboot](/Development/ROM Development/fastboot.md)
+        + [heimdall](/Development/ROM Development/heimdall.md)
         + flashrom

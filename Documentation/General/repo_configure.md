@@ -3,7 +3,7 @@
 ### How to configure
 
 ```bash
-$ echo "deb http://repo.androidtamer.com Tamer4 main" | sudo tee  /etc/apt/sources.list.d/repo_androidtamer_com.list
+$ echo "deb https://repo.androidtamer.com Tamer4 main" | sudo tee  /etc/apt/sources.list.d/repo_androidtamer_com.list
 ```
 
 ### Adding GPG Key
@@ -12,6 +12,11 @@ $ echo "deb http://repo.androidtamer.com Tamer4 main" | sudo tee  /etc/apt/sourc
 wget -qO - https://androidtamer.com/repo.gpg.key | sudo apt-key add -
 ```
 
+### Enable HTTPS Debian repositories
+
+```bash
+sudo apt-get install apt-transport-https
+```
 
 ### How to install pacakges
 
@@ -27,4 +32,4 @@ $ sudo apt-get install <package name>
 
 ### List of Available packages
 
-[http://repo.androidtamer.com/packagelist.html](http://repo.androidtamer.com/packagelist.html)
+[https://repo.androidtamer.com/packagelist.html](https://repo.androidtamer.com/packagelist.html)
