@@ -12,10 +12,7 @@ This environment allows people to work on large array of Android Security relate
 
 AndroidTamer comes as an `.ova` file. Double click it and Virtual Box adds the VM automatically.
 
-AndroidTamer is pre-configured with 1 GB of Base Memory (RAM), however 1.5 GB is recommended. Its also configured with two network adapters:
-
-- NAT - to get updates and access Internet
-- Host-Only Adapter - to access the virtual Android devices in Genymotion
+AndroidTamer is pre-configured with 1 GB of Base Memory (RAM), however 1.5 or more GB is recommended. (the more the merrier)
 
 ### Release Notes
 
@@ -83,8 +80,26 @@ sslscan | &#10004; | &#10004;
 vboxmanage | &#10004; | &#10004;
 zaproxy | &#10004; | &#10004;
 
-### 
+### Importing in VMWare Player / Fusion / Workstation
 
+AndroidTamer is created on VirtualBox and we officially support Virtualbox however its possible to install / import the OVA in VMWare products also.
+
+When am import is initiated you may encounter an error message as shown below.
+
+<center>
+![Error Linux](/images/vmware_import_error_linux.jpg "Error Message on Linux") ![Mac Linux](/images/vmware_import_error_mac.jpg "Error Message on Mac")
+</center>
+
+Its recommended to click on retry and VM should import easily.
+
+Once inside VM the VM might not auto resize to screen size in that case please install **open-vm-tools-desktop** package and restart the VM and auto resize should start working.
+
+![VMWare Tools](/images/install_open_vm_tools.jpg)
+
+Command: 
+```bash
+sudo apt-get install open-vm-tools-desktop
+```
 
 ### Support
 
