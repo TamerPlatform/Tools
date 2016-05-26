@@ -83,6 +83,9 @@ sslscan | &#10004; | &#10004;
 vboxmanage | &#10004; | &#10004;
 zaproxy | &#10004; | &#10004;
 
+### 
+
+
 ### Support
 
 AndroidTamer project is based on two things.
@@ -90,7 +93,7 @@ AndroidTamer project is based on two things.
 - Latest vulnerabilities and exploitation methods for Android
 - Suggestions from users
 
-This project was actually an initiative of Anant Shrivastava. Feel free to send your suggestions / issues directly to Anant at [anant@anantshri.info](mailto:anant@anantshri.info)
+This project was actually an initiative of Anant Shrivastava. However at this point a group of individuals contribute to this Project. Feel free to send your suggestions / issues directly to Anant at [anant@anantshri.info](mailto:anant@anantshri.info)
 
 ### Learn Android Security
 
