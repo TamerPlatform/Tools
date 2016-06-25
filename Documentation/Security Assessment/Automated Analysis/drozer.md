@@ -8,7 +8,7 @@ drozer allows you to search for security vulnerabilities in apps and devices by 
 
 drozer provides tools to help you use, share and understand public Android exploits. It helps you to deploy a drozer Agent to a device through exploitation or social engineering. Using weasel (MWR's advanced exploitation payload) drozer is able to maximise the permissions available to it by installing a full agent, injecting a limited agent into a running process, or connecting a reverse shell to act as a Remote Access Tool (RAT).
 
-**Source:** https://github.com/mwrlabs/drozer
+**Source:** [https://github.com/mwrlabs/drozer](https://github.com/mwrlabs/drozer)
 
 ### How to use with AndroidTamer
 
@@ -16,12 +16,10 @@ Drozer is already pre configured within AndroidTamer. However there are some ste
 
 1. We need to start device / emulator and connect that to the AndroidTamer Machine.
 2. Once device connected we need to install a drozer_client APK.
-3. Download the [client APK from the official website](https://labs.mwrinfosecurity.com/system/assets/934/original/drozer-agent-2.3.4.apk)
-```
-	android@tamer ~/Downloads> adb install ./drozer-agent-2.3.4.apk
-```
+3. Download the [client APK from the official website](https://labs.mwrinfosecurity.com/system/assets/934/original/drozer-agent-2.3.4.apk)<br>
+`android@tamer ~/Downloads> adb install ./drozer-agent-2.3.4.apk`
 4. Once device shows that the apk is installed then we are ready to use drozer
-5. To start using drozer type following
+5. To start using drozer type following <br>
 ```android@tamer ~> drozer_start <device_name>```
 
 
