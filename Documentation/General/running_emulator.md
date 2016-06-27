@@ -34,7 +34,7 @@ either by going to menu and selecting 'Android AVD Manager' or directly via comm
 
 In the window you will have to select Create and thne fill the details as shown and suggested below.
 
-![SDK Lauched](/images/emulator_install/5-avd  _options.jpg)
+![SDK Lauched](/images/emulator_install/5-avd_options.jpg)
 
 Once the options are set we select "OK" which results in AVD being created. When VM is sucessfully created you will get the message as listed below.
 
