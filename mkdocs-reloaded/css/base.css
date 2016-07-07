@@ -3,6 +3,7 @@ body {
     background: url(../img/grid.png) repeat-x;
     background-attachment: fixed;
     background-color: #f8f8f8;
+	font-size: 16px;
 }
 
 body > div.container {
