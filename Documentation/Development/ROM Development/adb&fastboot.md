@@ -5,7 +5,7 @@
 Fastboot and Adb are two programs found in the Android development SDK (AndroidSDK) that allow you to transfer files,install programs, 
 flash images, and run commands on your Android phone. Another thing to note: ADB can only connect to your phone while it is
 in recovery or booted into the OS.Fastboot can only be used when your device is in bootloader mode. 
-Finally, one of the most important things in terms of android is to access the bootloader.
+Finally, one of the most important things in terms of android development is to access the bootloader.
 
 ##FastBoot
 
