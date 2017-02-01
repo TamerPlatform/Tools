@@ -1,6 +1,6 @@
 ## Fastboot
 
-If you you need a brief about what is `fastboot` you could read it [here](../../Development/ROM Development/fastboot.md).
+If you you need a brief about what is `fastboot` you could read it [here](../../Development/ROM Development/fastboot).
 
 #### To view the list of recognized devices 
 
