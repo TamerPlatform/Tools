@@ -11,6 +11,7 @@ branches:
 
 install:
 - pip install mkdocs
+- pip install mkdocs-tamerdocs
 - pip install python-markdown-oembed
 - pip install markdown-newtab
 - pip install markdown-checklist
