@@ -7,7 +7,15 @@ markdown_extensions:
   - markdown_newtab
   - oembed
   - markdown_checklist.extension
-include_next_prev: false
+#include_next_prev: false
 copyright: <b>(c) AndroidTamer Team</b>
 site_favicon: favicon.ico
-theme_dir: mkdocs-reloaded
+#theme_dir: mkdocs-reloaded
+theme: tamerdocs
+repo_url: https://github.com/AndroidTamer/Tools
+extra:
+  navigation: false
+  search: true
+  twitter: https://www.twitter.com/androidtamer
+  facebook: https://www.facebook.com/AndroidTamer
+  irc: https://webchat.freenode.net/?url=irc://irc.freenode.net/androidtamer
