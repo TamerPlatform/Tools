@@ -1,4 +1,4 @@
-# AndroidTamer Tools
+## AndroidTamer Tools
 
 This repository hosts all the documentation regarding various tools available within AndroidTamer
 
@@ -61,7 +61,7 @@ Once inside VM the VM might not auto resize to screen size in that case please i
 
 ![VMWare Tools](/images/install_open_vm_tools.jpg)
 
-Command: 
+Command:
 ```bash
 sudo apt-get install open-vm-tools-desktop
 ```
@@ -73,7 +73,7 @@ AndroidTamer project is based on two things.
 - Latest vulnerabilities and exploitation methods for Android
 - Suggestions from users
 
-This project was actually an initiative of Anant Shrivastava. However at this point a group of individuals contribute to this Project. Feel free to send your suggestions / issues directly to Anant at [anant@anantshri.info](mailto:anant@anantshri.info)
+This project was actually an initiative of Anant Shrivastava. However at this point a group of individuals contribute to this project. Feel free to send your suggestions / issues directly to Anant at [anant@anantshri.info](mailto:anant@anantshri.info)
 
 ### Learn Android Security
 
