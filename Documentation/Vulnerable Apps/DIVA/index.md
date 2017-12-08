@@ -9,7 +9,7 @@ The app covers common vulnerabilities in Android apps ranging from insecure stor
 There are 13 challenges within the app with each having a vulnerability.
 
 <center>
-![DIVA1](/img/diva1.png "DIVA Challenges 1-6") ![DIVA2](/img/diva2.png "DIVA Challenges 4-13")
+![DIVA1](/images/vuln_apps/DIVA/diva1.png "DIVA Challenges 1-6") ![DIVA2](/images/vuln_apps/DIVA/diva2.png "DIVA Challenges 4-13")
 </center>
 
 ### Where can I get DIVA ?
