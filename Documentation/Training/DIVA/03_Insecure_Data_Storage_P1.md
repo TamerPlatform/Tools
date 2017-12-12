@@ -1,4 +1,4 @@
-## 03. Insecure Data Storage P1
+## Insecure Data Storage - Part 1
 
 When you click on **Insecure Data Storage - Part 1**, you would see the following screen.
 
