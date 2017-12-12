@@ -25,6 +25,15 @@ It is NOT intended for piracy and other non-legal uses. It could be used for loc
 ![image](/images/APKTool.jpg)
 </center>
 
+### Cheatsheet
+
+- To decompile an APK:
+  `apktool d file.apk`
+- To decompile an APK and put it under a specific folder name:
+  `apktool d file.apk folder`
+- To compile the smali code to APK:
+  `apktool b folder`
+
 ### External Links
 - [Official Website](http://ibotpeaches.github.io/Apktool/)
 - [Official Documentation](http://ibotpeaches.github.io/Apktool/documentation/)
