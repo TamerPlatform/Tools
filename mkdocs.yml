@@ -8,7 +8,7 @@ markdown_extensions:
   - oembed
   - markdown_checklist.extension
 #include_next_prev: false
-copyright: <b>(c) AndroidTamer Team</b>
+copyright: <b>&copy; AndroidTamer Team</b>
 site_favicon: favicon.ico
 #theme_dir: mkdocs-reloaded
 theme: tamerdocs
