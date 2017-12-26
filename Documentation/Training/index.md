@@ -11,3 +11,4 @@ This section deals with the write-ups on exploiting different publicly available
 - [VulnerableAndroidAppOracle](https://github.com/dan7800/VulnerableAndroidAppOracle)
 - [vulnerable-application](https://github.com/appknox/vulnerable-application)
 - [VulnApp](https://github.com/Lance0312/VulnApp)
+- [Purposefully Insecure and Vulnerable Android Application](https://github.com/htbridge/pivaa)
