@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Documentation for Android Tamer">
+        <meta name="author" content="AndroidTamer Team">
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <meta name="twitter:card" content="summary" />
+        
+        <meta name="twitter:site" content="https://www.twitter.com/androidtamer" />
+        
+        <meta name="twitter:title" content="AndroidTamer" />
+        <meta property="og:title" content="AndroidTamer" />
+        <meta property="og:url" content="" />
+        
+        <meta property="og:description" content="Documentation for Android Tamer" />
+        <meta name="twitter:description" content="Documentation for Android Tamer" />
+        
+        
+        <title>MobSF: Mobile Security Framework - AndroidTamer</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        
+        
+        <link rel="stylesheet" href="../../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../../..">AndroidTamer</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Application</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Development/Application/basics/">Basic Development Tools</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">ROM Development</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Development/ROM Development/fastboot/">Fastboot</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Development/ROM Development/heimdall/">Heimdall</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../Examples/adb/">Adb</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../Examples/fastboot/">Fastboot</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../General/decompile/">Decompiling Application</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/multi_devices/">Managing multiple devices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/packages/">Packages</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/python_packages/">Python packages</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/repo_configure/">AndroidTamer Repository in Debian 8</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/running_emulator/">Emulator</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/screenshot/">How to take screenshots of device</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/tools_mindmap/">MindMap: Tools Present in AndroidTamer</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Security Assessment <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Automated Analysis</a>
+    <ul class="dropdown-menu">
+        
+            
+<li class="active">
+    <a href="./">MobSF: Mobile Security Framework</a>
+</li>
+
+        
+            
+<li >
+    <a href="../drozer/">Drozer</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Manual Analysis</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../Manual Analysis/APKTool/">APKTool</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Pentesting</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../Pentesting/Burpsuite/">Burpsuite</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../Pentesting/nikto/">Nikto</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../Pentesting/nmap/">Nmap</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../Training/">Home</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">DIVA</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Training/DIVA/00_Home/">00 Home</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/01_Insecure_Logging/">01 Insecure Logging</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/02_Hardcoding_Issues/">02 Hardcoding Issues</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/03_Insecure_Data_Storage_P1/">03 Insecure Data Storage P1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/04_Insecure_Data_Storage_P2/">04 Insecure Data Storage P2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/05_Insecure_Data_Storage_P3/">05 Insecure Data Storage P3</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/06_Insecure_Data_Storage_P4/">06 Insecure Data Storage P4</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/07_Input_Validation_Issues_P1/">07 Input Validation Issues P1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/08_Input_Validation_Issues_P2/">08 Input Validation Issues P2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/09_Access_Control_Issues_P1/">09 Access Control Issues P1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Training/DIVA/10_Access_Control_Issues_P2/">10 Access Control Issues P2</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                
+                
+                
+                    <li>
+                        <a href="https://www.twitter.com/androidtamer"><i class="fa fa-twitter fa-lg"></i></a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://www.facebook.com/AndroidTamer"><i class="fa fa-facebook fa-lg"></i></a>
+                    </li>
+                
+                
+                
+                    <li>
+                        <a href="https://webchat.freenode.net/?url=irc://irc.freenode.net/androidtamer"><i class="fa fa-hashtag fa-lg"></i></a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://github.com/AndroidTamer/Tools/">
+                            
+                                <i class="fa fa-github fa-lg"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                
+                    <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#mobsf-mobile-security-framework">MobSF: Mobile Security Framework</a></li>
+        
+            <li><a href="#how-to-use-with-androidtamer">How to Use with AndroidTamer</a></li>
+        
+            <li><a href="#how-is-it-different-from-original-source-code">How is it different from Original Source Code</a></li>
+        
+            <li><a href="#things-to-keep-in-mind">Things to keep in mind</a></li>
+        
+            <li><a href="#software-details">Software Details</a></li>
+        
+            <li><a href="#additional-references">Additional References</a></li>
+        
+            <li><a href="#todo-for-guide">TODO for Guide</a></li>
+        
+    
+    </ul>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div class="content">
+
+
+<h1 id="mobsf-mobile-security-framework">MobSF: Mobile Security Framework</h1>
+<h3 id="how-to-use-with-androidtamer">How to Use with AndroidTamer</h3>
+<p><strong>MobSF is preconfigured in the AndroidTamer Packages</strong></p>
+<p>Launch MobSF via </p>
+<pre><code>android@tamer ~&gt; mobsf
+</code></pre>
+<p>Now you just need to navigate to </p>
+<p><strong><a href="http://localhost:3000" target="_blank">http://localhost:3000</a></strong></p>
+<p>and you should have running MobSF instance.</p>
+<p><img alt="MobSF" src="../../../images/mobsf_running.jpg" /></p>
+<p>At this point you can see the console output, for first time it will create folder in ~ i.e. user home directory.</p>
+<p>A folder is created in <code>~/.mobsf/</code> which will contain the file</p>
+<p><strong>Note:</strong> Remember you don't need to run this command as sudo. Run this as normal user.</p>
+<h3 id="how-is-it-different-from-original-source-code">How is it different from Original Source Code</h3>
+<p>Original sourcecode: <a href="https://github.com/ajinabraham/Mobile-Security-Framework-MobSF" target="_blank">https://github.com/ajinabraham/Mobile-Security-Framework-MobSF</a></p>
+<p>Modified sourcecode: <a href="https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF" target="_blank">https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF</a></p>
+<p>Major difference is in the approach how tool will store data. In original code, the author assumes the standard play - that user will git clone and then all data will be stored inside the folder. However for distributions thats not how we wanted it to work so the code that we modify is mainly the settings file where we ensure all data that needs to be dynamic in nature is sourced from the users home directory and not the default location.</p>
+<p>This allows flexibility that multiple users can run MobSF and have there own results. This also allows us to keep MobSF updates as distinct as possible. However this also puts us in a position where we can't push MobSF updates as soon as they are released we are working with the author to streamline the process.</p>
+<h3 id="things-to-keep-in-mind">Things to keep in mind</h3>
+<ol>
+<li><strong>Don't</strong> run the command as <strong>sudo</strong> user.</li>
+<li>If you get error messages around permission denied, those can be safely ignored as all commands are by default in path and hence those are non needed steps.</li>
+</ol>
+<h3 id="software-details">Software Details</h3>
+<h4 id="author-ajin-abraham">Author: Ajin Abraham</h4>
+<h4 id="url-httpsgithubcomajinabrahammobile-security-framework-mobsf">URL: <a href="https://github.com/ajinabraham/Mobile-Security-Framework-MobSF" target="_blank">https://github.com/ajinabraham/Mobile-Security-Framework-MobSF</a></h4>
+<p>From the <a href="http://opensecurity.in" target="_blank">website</a> itself</p>
+<pre><code>Mobile Security Framework is an intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.
+</code></pre>
+<h3 id="additional-references">Additional References</h3>
+<figure class="oembed"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/1b1GpmyyRdHLyS" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/ajin25/nullcon-goa-2016-automated-mobile-application-security-testing-with-mobile-security-framework-mobsf" title="Nullcon Goa 2016 - Automated Mobile Application Security Testing with Mobile Security Framework (MobSF)" target="_blank">Nullcon Goa 2016 - Automated Mobile Application Security Testing with Mobile Security Framework (MobSF)</a> </strong> from <strong><a href="https://www.slideshare.net/ajin25" target="_blank">Ajin Abraham</a></strong> </div>
+
+</figure>
+
+<figure class="oembed"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/2yCGG2Drz9Xs6Z" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/ajin25/automated-security-analysis-of-android-ios-applications-with-mobile-security-framework-c0c0n-2015" title="Automated Security Analysis of Android &amp; iOS Applications with Mobile Security Framework - c0c0n 2015" target="_blank">Automated Security Analysis of Android &amp; iOS Applications with Mobile Security Framework - c0c0n 2015</a> </strong> from <strong><a href="https://www.slideshare.net/ajin25" target="_blank">Ajin Abraham</a></strong> </div>
+
+</figure>
+
+<figure class="oembed"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/EAHTQ0Tsex8JQx" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/ajin25/g4h-webcast-automated" title="G4H Webcast: Automated Security Analysis of Mobile Applications with Mobile Security Framework" target="_blank">G4H Webcast: Automated Security Analysis of Mobile Applications with Mobile Security Framework</a> </strong> from <strong><a href="https://www.slideshare.net/ajin25" target="_blank">Ajin Abraham</a></strong> </div>
+
+</figure>
+
+<h3 id="todo-for-guide">TODO for Guide</h3>
+<ol>
+<li>Add images to show how process works</li>
+<li>Link to the official guide or write your own</li>
+</ol>
+
+</div></div>
+                
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+                <p><b>&copy; AndroidTamer Team</b></p>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> - Last updated : 2017-12-26</p>
+        </footer>
+
+        <script src="../../../js/jquery-1.12.3.min.js"></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        
+        <script>var base_url = '../../..';</script>
+
+        <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script>
+
+        <script src="../../../js/base.js"></script>
+        <script src="../../../search/require.js"></script>
+        <script src="../../../search/search.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

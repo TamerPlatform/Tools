@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Documentation for Android Tamer">
+        <meta name="author" content="AndroidTamer Team">
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <meta name="twitter:card" content="summary" />
+        
+        <meta name="twitter:site" content="https://www.twitter.com/androidtamer" />
+        
+        <meta name="twitter:title" content="AndroidTamer" />
+        <meta property="og:title" content="AndroidTamer" />
+        <meta property="og:url" content="" />
+        
+        <meta property="og:description" content="Documentation for Android Tamer" />
+        <meta name="twitter:description" content="Documentation for Android Tamer" />
+        
+        
+        <title>09 Access Control Issues P1 - AndroidTamer</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        
+        
+        <link rel="stylesheet" href="../../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../../..">AndroidTamer</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Application</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Development/Application/basics/">Basic Development Tools</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">ROM Development</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Development/ROM Development/fastboot/">Fastboot</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Development/ROM Development/heimdall/">Heimdall</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../Examples/adb/">Adb</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../Examples/fastboot/">Fastboot</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../General/decompile/">Decompiling Application</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/multi_devices/">Managing multiple devices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/packages/">Packages</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/python_packages/">Python packages</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/repo_configure/">AndroidTamer Repository in Debian 8</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/running_emulator/">Emulator</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/screenshot/">How to take screenshots of device</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../General/tools_mindmap/">MindMap: Tools Present in AndroidTamer</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Security Assessment <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Automated Analysis</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Security Assessment/Automated Analysis/MobSF/">MobSF: Mobile Security Framework</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Security Assessment/Automated Analysis/drozer/">Drozer</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Manual Analysis</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Security Assessment/Manual Analysis/APKTool/">APKTool</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Pentesting</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../Security Assessment/Pentesting/Burpsuite/">Burpsuite</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Security Assessment/Pentesting/nikto/">Nikto</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../Security Assessment/Pentesting/nmap/">Nmap</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../">Home</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">DIVA</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../00_Home/">00 Home</a>
+</li>
+
+        
+            
+<li >
+    <a href="../01_Insecure_Logging/">01 Insecure Logging</a>
+</li>
+
+        
+            
+<li >
+    <a href="../02_Hardcoding_Issues/">02 Hardcoding Issues</a>
+</li>
+
+        
+            
+<li >
+    <a href="../03_Insecure_Data_Storage_P1/">03 Insecure Data Storage P1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../04_Insecure_Data_Storage_P2/">04 Insecure Data Storage P2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../05_Insecure_Data_Storage_P3/">05 Insecure Data Storage P3</a>
+</li>
+
+        
+            
+<li >
+    <a href="../06_Insecure_Data_Storage_P4/">06 Insecure Data Storage P4</a>
+</li>
+
+        
+            
+<li >
+    <a href="../07_Input_Validation_Issues_P1/">07 Input Validation Issues P1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../08_Input_Validation_Issues_P2/">08 Input Validation Issues P2</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">09 Access Control Issues P1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../10_Access_Control_Issues_P2/">10 Access Control Issues P2</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                
+                
+                
+                    <li>
+                        <a href="https://www.twitter.com/androidtamer"><i class="fa fa-twitter fa-lg"></i></a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://www.facebook.com/AndroidTamer"><i class="fa fa-facebook fa-lg"></i></a>
+                    </li>
+                
+                
+                
+                    <li>
+                        <a href="https://webchat.freenode.net/?url=irc://irc.freenode.net/androidtamer"><i class="fa fa-hashtag fa-lg"></i></a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://github.com/AndroidTamer/Tools/">
+                            
+                                <i class="fa fa-github fa-lg"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                
+                    <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#access-control-issues-part-1">Access Control Issues - Part 1</a></li>
+        
+            <li><a href="#takeaway">Takeaway</a></li>
+        
+    
+    </ul>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div class="content">
+
+
+<h2 id="access-control-issues-part-1">Access Control Issues - Part 1</h2>
+<p>When we click on <strong>Access Control Issues - Part 1</strong>, apart from the <em>Objective</em> and <em>Hint</em> you would see a single button - <strong>VIEW API CREDENTIALS</strong></p>
+<p><center><img alt="Access Control Issues 1a" src="../../../images/vuln_apps/DIVA/Challenge_9a.png" /></center></p>
+<p>When you click on the button, an activity pops up to display the so called API credentials.</p>
+<p><center><img alt="Access Control Issues 1b" src="../../../images/vuln_apps/DIVA/Challenge_9b.png" /></center></p>
+<p>In Android, an activity represents a single screen with a user interface (just like window or frame of Java). Generally speaking, anything which the user could touch and interact is called activity. Each activity has it's own unique name.</p>
+<p>Now, we are left with one question - <em>How to find the name of the activity which just popped up?</em></p>
+<p>The answer is logs. Whenever an activity is launched, the name of the activity is logged. Let's check the logs using <code>adb shell logcat</code> command.</p>
+<p><center><img alt="Access Control Issues 1c" src="../../../images/vuln_apps/DIVA/Challenge_9c.png" /></center></p>
+<p>We found the name of the recently launched activity - <code>jakhar.aseem.diva/.APICredsActivity</code>.</p>
+<blockquote>
+<p><strong>NOTE:</strong> The name of any activity is always appended with the package name. This is done so that there is no confusion when an activity is invoked. Activities of 2 apps can have same name, but the package names cannot be the same.</p>
+</blockquote>
+<p>In Android, we have a utility <code>am</code> (Activity Manager) which allows us to manage activities.</p>
+<p>Let's check if the activity could be invoked externally. Use the command: <code>adb shell am start -n jakhar.aseem.diva/.APICredsActivity</code></p>
+<p><center><img alt="Access Control Issues 1d" src="../../../images/vuln_apps/DIVA/Challenge_9d.png" /></center></p>
+<p>When we look at the emulator / device, we could see the activity that displays API Credentials pops up.</p>
+<p><center><img alt="Access Control Issues 1e" src="../../../images/vuln_apps/DIVA/Challenge_9e.png" /></center></p>
+<p>This activity could be invoked externally, which means other apps on the device could also invoke it without explicit permissions.</p>
+<p><strong>How to find if the activity was invoked externally and through DIVA app ?</strong></p>
+<p>When you press the <em>Overview</em> button, you could see how the activity was launched. In the first case, DIVA app had invoked the activity, but in second it was externally invoked.</p>
+<p><center><img alt="Access Control Issues 1y" src="../../../images/vuln_apps/DIVA/Challenge_9y.png" /> <img alt="Access Control Issues 1z" src="../../../images/vuln_apps/DIVA/Challenge_9z.png" /></center></p>
+<h3 id="takeaway">Takeaway</h3>
+<ul>
+<li>Activity represents a screen with a user interface</li>
+<li>Whenever an activity is launched, it is logged and could be viewed using <code>adb shell logcat</code> command</li>
+<li>Android comes with activity manager (<code>am</code>) which can be used to manage the activities</li>
+<li>Command to start an activity: <code>adb shell am start -n &lt;package_name&gt;/&lt;activity_name&gt;</code></li>
+<li><code>am</code> - activity manager</li>
+<li><code>start</code> - start the activity</li>
+<li><code>-n</code> - name of the activity</li>
+<li>Clicking the overview button would help us understand what launched the activity</li>
+</ul>
+
+</div></div>
+                
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+                <p><b>&copy; AndroidTamer Team</b></p>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> - Last updated : 2017-12-26</p>
+        </footer>
+
+        <script src="../../../js/jquery-1.12.3.min.js"></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        
+        <script>var base_url = '../../..';</script>
+
+        <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script>
+
+        <script src="../../../js/base.js"></script>
+        <script src="../../../search/require.js"></script>
+        <script src="../../../search/search.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

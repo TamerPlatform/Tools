@@ -1,0 +1,769 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "AndroidTamer Tools\n\n\nThis repository hosts all the documentation regarding various tools available within AndroidTamer\n\n\nOverview\n\n\nAndroid Tamer is a Virtual / Live Platform for Android Security Professionals.\n\n\nThis environment allows people to work on large array of Android Security related tasks ranging from Malware Analysis, Penetration Testing and Reverse Engineering.\n\n\nA short introduction to AndroidTamer is listed below.\n\n\n\n\n \n \n \n \nAndroid Tamer: Virtual Machine for Android (Security) Professionals\n \n from \nAnant Shrivastava\n \n\n\n\n\n\n\n\nInstallation\n\n\nAndroidTamer comes as an \n.ova\n file. Double click it and Virtual Box adds the VM automatically.\n\n\nAndroidTamer is pre-configured with 1 GB of Base Memory (RAM), however 1.5 or more GB is recommended. (the more the merrier)\n\n\nRelease Notes\n\n\nAndroidTamer has Debian 8 as its base machine. The are a many reasons why Debian was chosen instead of Ubuntu. It comes with some custom scripts which simplifies the life of Android pentester.\n\n\nThe credentials for AndroidTamer is :\n\n\n\n\nUsername\n: android\n\n\nPassword\n: tamer\n\n\n\n\nThe latest version of Android Tamer is compatible with both VirtualBox and VMware.\n\n\nThe history of compatibility of previous releases:\n\n\n\n\nVer 1\n : Virtualbox\n\n\nVer 2\n : VMware player\n\n\nVer 3\n : Not released\n\n\nVer 4\n : Compatibile with both\n\n\n\n\nPackages and Scripts\n\n\nAndroidTamer comes pre-installed with many development and security pentesting tools. It is also beefed up with some custom scripts to automate common tasks. You could find a detailed description about the packages and scripts installed in AndroidTamer \nhere\n.\n\n\nCheck the \npackage list\n to view the list of tools available in AndroidTamer.\n\n\nImporting in VMWare Player / Fusion / Workstation\n\n\nAndroidTamer is created on VirtualBox and we officially support Virtualbox however its possible to install / import the OVA in VMWare products also.\n\n\nWhen am import is initiated you may encounter an error message as shown below.\n\n\n\n\n \n\n\n\n\nIts recommended to click on retry and VM should import easily.\n\n\nOnce inside VM the VM might not auto resize to screen size in that case please install \nopen-vm-tools-desktop\n package and restart the VM and auto resize should start working.\n\n\n\n\nCommand:\n\n\nsudo apt-get install open-vm-tools-desktop\n\n\n\n\nSupport\n\n\nAndroidTamer project is based on two things.\n\n\n\n\nLatest vulnerabilities and exploitation methods for Android\n\n\nSuggestions from users\n\n\n\n\nThis project was actually an initiative of Anant Shrivastava. However at this point a group of individuals contribute to this project. Feel free to send your suggestions / issues directly to Anant at \nanant@anantshri.info\n\n\nLearn Android Security\n\n\nHave a look at the below URLs.\n\n\n\n\nLearn Android Security\n\n\nAwesome Android Security\n\n\n\n\nPGP Key\n\n\nYou can get PGP public key at: \nhttps://androidtamer.com/repo.gpg.key", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#androidtamer-tools", 
+            "text": "This repository hosts all the documentation regarding various tools available within AndroidTamer", 
+            "title": "AndroidTamer Tools"
+        }, 
+        {
+            "location": "/#overview", 
+            "text": "Android Tamer is a Virtual / Live Platform for Android Security Professionals.  This environment allows people to work on large array of Android Security related tasks ranging from Malware Analysis, Penetration Testing and Reverse Engineering.  A short introduction to AndroidTamer is listed below.           Android Tamer: Virtual Machine for Android (Security) Professionals    from  Anant Shrivastava", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/#installation", 
+            "text": "AndroidTamer comes as an  .ova  file. Double click it and Virtual Box adds the VM automatically.  AndroidTamer is pre-configured with 1 GB of Base Memory (RAM), however 1.5 or more GB is recommended. (the more the merrier)", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/#release-notes", 
+            "text": "AndroidTamer has Debian 8 as its base machine. The are a many reasons why Debian was chosen instead of Ubuntu. It comes with some custom scripts which simplifies the life of Android pentester.  The credentials for AndroidTamer is :   Username : android  Password : tamer   The latest version of Android Tamer is compatible with both VirtualBox and VMware.  The history of compatibility of previous releases:   Ver 1  : Virtualbox  Ver 2  : VMware player  Ver 3  : Not released  Ver 4  : Compatibile with both", 
+            "title": "Release Notes"
+        }, 
+        {
+            "location": "/#packages-and-scripts", 
+            "text": "AndroidTamer comes pre-installed with many development and security pentesting tools. It is also beefed up with some custom scripts to automate common tasks. You could find a detailed description about the packages and scripts installed in AndroidTamer  here .  Check the  package list  to view the list of tools available in AndroidTamer.", 
+            "title": "Packages and Scripts"
+        }, 
+        {
+            "location": "/#importing-in-vmware-player-fusion-workstation", 
+            "text": "AndroidTamer is created on VirtualBox and we officially support Virtualbox however its possible to install / import the OVA in VMWare products also.  When am import is initiated you may encounter an error message as shown below.       Its recommended to click on retry and VM should import easily.  Once inside VM the VM might not auto resize to screen size in that case please install  open-vm-tools-desktop  package and restart the VM and auto resize should start working.   Command:  sudo apt-get install open-vm-tools-desktop", 
+            "title": "Importing in VMWare Player / Fusion / Workstation"
+        }, 
+        {
+            "location": "/#support", 
+            "text": "AndroidTamer project is based on two things.   Latest vulnerabilities and exploitation methods for Android  Suggestions from users   This project was actually an initiative of Anant Shrivastava. However at this point a group of individuals contribute to this project. Feel free to send your suggestions / issues directly to Anant at  anant@anantshri.info", 
+            "title": "Support"
+        }, 
+        {
+            "location": "/#learn-android-security", 
+            "text": "Have a look at the below URLs.   Learn Android Security  Awesome Android Security", 
+            "title": "Learn Android Security"
+        }, 
+        {
+            "location": "/#pgp-key", 
+            "text": "You can get PGP public key at:  https://androidtamer.com/repo.gpg.key", 
+            "title": "PGP Key"
+        }, 
+        {
+            "location": "/Development/Application/basics/", 
+            "text": "Basic Development Tools\n\n\nAndroidTamer does not only comprise of offensive tools and scripts for Android security testing, but also frameworks for Android app development. Some development tools which come with AndroidTamer are:\n- Android Studio\n- Android SDK\n- Android AVD Management\n\n\nAndroid-Studio\n\n\nAndroid Studio is the official Integrated Development Environment (IDE) for the Android platform. You can code, compile and debug Android apps using Android Studio. Know more about the IDE in its \nofficial website\n.\n\n\nIt is by default installed and configured in your terminal path. All you need to do is just type the following command:\n\n\nandroid@tamer ~\n android-studio\n\n\n\n\nAndroid SDK\n\n\nAndroid Software Development Kit (SDK) comes with the Android Studio package. The latest version of Android SDK gets downloaded and installed on the first run of Android Studio. It is a set of development tools used to develop applications for Android platform. The Android SDK includes the following:\n\n\n\n\nRequired libraries\n\n\nDebugger\n\n\nAn emulator\n\n\nRelevant documentation for the Android application program interfaces (APIs)\n\n\nSample source code\n\n\nTutorials for the Android OS\n\n\n\n\nEach version of Android has its own SDK. It provides the ability to create an application for particular version(s) of Android. For example, if you have installed SDK for Android Nougat, you can create Android apps for that version. Similarly, you need to install the SDK of all the versions for which you want to create the Android apps.\n\n\nAndroid SDK Manager allows you to install, manage and delete SDKs. In AndroidTamer, it is installed on the path \n/opt/Arsenal/android-sdk-linux\n. You could start the Android SDK Manager with ease using the following command:\n\n\nandroid@tamer ~\n android sdk\n\n\n\n\nAndroid AVD Management\n\n\nAn Android Virtual Device (AVD) is an emulator configuration that allows developers to test the application by simulating the real device capabilities. Not only does it help with compatibility testing after the Android app development but also helps in dynamic analysis of the apps.\n\n\nAs AndroidTamer is a virtual machine environment hence \nits recommended to run emulator only when you have alocated more then 2 GB of RAM\n to the virtual machine.\n\n\nTo directly launch AVD manager type following command:\n\n\nandroid@tamer ~\n android avd\n\n\n\n\nDevelop an Application\n\n\nLaunch Android Studio\n\n\nA custom bash script named \nstudio.sh\n is packaged with AndroidTamer to help the CLI lovers. The script is configured on the terminal path and is located at \n/opt/Arsenal/android-studio/bin/studio.sh\n. Instead of manually clicking Android Studio in the \nDevelopment\n drop-down sublist, it allows the user to launch Android Studio using the terminal with just one command. This script basically checks if JRE, JDK and IDE are properly installed and configured. If anyone is failing then the script doesnt invoke Android Studio and displays the error.\n\n\nTo launch Android Studio from terminal, type the following command:\n\n\nandroid@tamer ~\n studio.sh", 
+            "title": "Basic Development Tools"
+        }, 
+        {
+            "location": "/Development/Application/basics/#basic-development-tools", 
+            "text": "AndroidTamer does not only comprise of offensive tools and scripts for Android security testing, but also frameworks for Android app development. Some development tools which come with AndroidTamer are:\n- Android Studio\n- Android SDK\n- Android AVD Management", 
+            "title": "Basic Development Tools"
+        }, 
+        {
+            "location": "/Development/Application/basics/#android-studio", 
+            "text": "Android Studio is the official Integrated Development Environment (IDE) for the Android platform. You can code, compile and debug Android apps using Android Studio. Know more about the IDE in its  official website .  It is by default installed and configured in your terminal path. All you need to do is just type the following command:  android@tamer ~  android-studio", 
+            "title": "Android-Studio"
+        }, 
+        {
+            "location": "/Development/Application/basics/#android-sdk", 
+            "text": "Android Software Development Kit (SDK) comes with the Android Studio package. The latest version of Android SDK gets downloaded and installed on the first run of Android Studio. It is a set of development tools used to develop applications for Android platform. The Android SDK includes the following:   Required libraries  Debugger  An emulator  Relevant documentation for the Android application program interfaces (APIs)  Sample source code  Tutorials for the Android OS   Each version of Android has its own SDK. It provides the ability to create an application for particular version(s) of Android. For example, if you have installed SDK for Android Nougat, you can create Android apps for that version. Similarly, you need to install the SDK of all the versions for which you want to create the Android apps.  Android SDK Manager allows you to install, manage and delete SDKs. In AndroidTamer, it is installed on the path  /opt/Arsenal/android-sdk-linux . You could start the Android SDK Manager with ease using the following command:  android@tamer ~  android sdk", 
+            "title": "Android SDK"
+        }, 
+        {
+            "location": "/Development/Application/basics/#android-avd-management", 
+            "text": "An Android Virtual Device (AVD) is an emulator configuration that allows developers to test the application by simulating the real device capabilities. Not only does it help with compatibility testing after the Android app development but also helps in dynamic analysis of the apps.  As AndroidTamer is a virtual machine environment hence  its recommended to run emulator only when you have alocated more then 2 GB of RAM  to the virtual machine.  To directly launch AVD manager type following command:  android@tamer ~  android avd", 
+            "title": "Android AVD Management"
+        }, 
+        {
+            "location": "/Development/Application/basics/#develop-an-application", 
+            "text": "", 
+            "title": "Develop an Application"
+        }, 
+        {
+            "location": "/Development/Application/basics/#launch-android-studio", 
+            "text": "A custom bash script named  studio.sh  is packaged with AndroidTamer to help the CLI lovers. The script is configured on the terminal path and is located at  /opt/Arsenal/android-studio/bin/studio.sh . Instead of manually clicking Android Studio in the  Development  drop-down sublist, it allows the user to launch Android Studio using the terminal with just one command. This script basically checks if JRE, JDK and IDE are properly installed and configured. If anyone is failing then the script doesnt invoke Android Studio and displays the error.  To launch Android Studio from terminal, type the following command:  android@tamer ~  studio.sh", 
+            "title": "Launch Android Studio"
+        }, 
+        {
+            "location": "/Development/ROM Development/fastboot/", 
+            "text": "fastboot\n\n\nOverview\n\n\nAndroid device has 3 important partitions:\n\n\n- Boot loader\n- Recovery\n- Android ROM\n\n\n\nBoot loader loads first and decides the next partition to be loaded (which is usually the \nAndroid ROM\n). Recovery is the mode that is used by device to install updates to Android ROM partition. It is also used while factory resetting the phone. The recovery that comes by default usually has less options and that is why custom recovery modules are available.\n\n\nFastboot on the other hand is a protocol that can be used to connect to the device from a computer over USB and issue updates to the partitions of the device. For example, while I'm in fastboot I can update by recovery partition.\n\n\nFrom \nkingoapp.com\n, fastboot is defined as:\n\n\n\n\nFastboot is a protocol that can be used to re-flash partitions on your device (update the flash file system in Android devices). It is this small tool that comes with the Android SDK (Software Developer Kit), which is an alternative to the Recovery Mode for doing installations and updates.\n\n\nNot all phones have a fastboot mode that the user can access. It\u2019s turned on with Nexus devices by default as well as a few other phones and tablets and has been enabled by independent Android developers and enthusiasts on some other phones.\n\n\n\n\nWhat is Fastboot for?\n\n\nWhile in fastboot, you can \nmodify the file system images\n from a computer over a USB connection. Fastboot mode can start on your device even before Android loads, even under the circumstance when Android isn\u2019t installed at all. And because of that, fastboot mode is useful for quick-updating the firmware, without having to use a recovery mode.\n\n\nYou can read more about the basic commands of fastboot \nhere\n.\n\n\nIs fastboot the same as adb ?\n\n\nEven though both \nfastboot\n and \nadb\n send terminal commands to phone from computer via USB, they both serve different functions. Both the tools come with the huge Android SDK but Google recently made a standalone version of these tools available to the users. \n\n\nSome basic differences between fastboot and adb :\n\n\n\n\nfastboot is used to modify phone\u2019s firmware and sends commands directly to the bootloader, whereas, adb sends commands to the phone after it is turned on and booted (or in recovery mode)\n\n\nfastboot works without the debugging mode enabled, whereas, adb requires Debugging enabled on the phone\n\n\nfastboot isn't available for all devices whereas adb can be used with almost all devices\n\n\n\n\nfastboot in AndroidTamer\n\n\n\n\n\n\n\n\n\n\nUsage :\n \n\n\nandroid@tamer:~$\n \nfastboot [ \noption\n ] \ncommand", 
+            "title": "Fastboot"
+        }, 
+        {
+            "location": "/Development/ROM Development/fastboot/#fastboot", 
+            "text": "", 
+            "title": "fastboot"
+        }, 
+        {
+            "location": "/Development/ROM Development/fastboot/#overview", 
+            "text": "Android device has 3 important partitions:  - Boot loader\n- Recovery\n- Android ROM  Boot loader loads first and decides the next partition to be loaded (which is usually the  Android ROM ). Recovery is the mode that is used by device to install updates to Android ROM partition. It is also used while factory resetting the phone. The recovery that comes by default usually has less options and that is why custom recovery modules are available.  Fastboot on the other hand is a protocol that can be used to connect to the device from a computer over USB and issue updates to the partitions of the device. For example, while I'm in fastboot I can update by recovery partition.  From  kingoapp.com , fastboot is defined as:   Fastboot is a protocol that can be used to re-flash partitions on your device (update the flash file system in Android devices). It is this small tool that comes with the Android SDK (Software Developer Kit), which is an alternative to the Recovery Mode for doing installations and updates.  Not all phones have a fastboot mode that the user can access. It\u2019s turned on with Nexus devices by default as well as a few other phones and tablets and has been enabled by independent Android developers and enthusiasts on some other phones.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/Development/ROM Development/fastboot/#what-is-fastboot-for", 
+            "text": "While in fastboot, you can  modify the file system images  from a computer over a USB connection. Fastboot mode can start on your device even before Android loads, even under the circumstance when Android isn\u2019t installed at all. And because of that, fastboot mode is useful for quick-updating the firmware, without having to use a recovery mode.  You can read more about the basic commands of fastboot  here .", 
+            "title": "What is Fastboot for?"
+        }, 
+        {
+            "location": "/Development/ROM Development/fastboot/#is-fastboot-the-same-as-adb", 
+            "text": "Even though both  fastboot  and  adb  send terminal commands to phone from computer via USB, they both serve different functions. Both the tools come with the huge Android SDK but Google recently made a standalone version of these tools available to the users.   Some basic differences between fastboot and adb :   fastboot is used to modify phone\u2019s firmware and sends commands directly to the bootloader, whereas, adb sends commands to the phone after it is turned on and booted (or in recovery mode)  fastboot works without the debugging mode enabled, whereas, adb requires Debugging enabled on the phone  fastboot isn't available for all devices whereas adb can be used with almost all devices", 
+            "title": "Is fastboot the same as adb ?"
+        }, 
+        {
+            "location": "/Development/ROM Development/fastboot/#fastboot-in-androidtamer", 
+            "text": "Usage :    android@tamer:~$   fastboot [  option  ]  command", 
+            "title": "fastboot in AndroidTamer"
+        }, 
+        {
+            "location": "/Development/ROM Development/heimdall/", 
+            "text": "Heimdall\n\n\n\n\nHeimdall is a cross-platform open-source tool suite used to flash firmware (aka ROMs) onto Samsung mobile devices.\n\n\nHow does it work?\n\n\nHeimdall connects to a mobile device over USB and interact with software running on device known as Loke. Loke and Heimdall communicate via the custom Samsung-developed protocol sometimes referred to as the 'Odin protocol'. Low-level USB in Heimdall is handled by the popular open-source USB library, libusbx.\n\n\nWhy 'Heimdall'?\n\n\nFor internal use, Samsung developed their own firmware flashing tool known as 'Odin', named after the king of gods in Norse mythology. Loke, the software component that runs on the Samsung devices and provides the functionality necessary to flash, also seems to be named after an important character in Norse mythology (often translated as Loki). In this vein, our software was named 'Heimdall' after the Norse god and guardian of the Bifrost Bridge.\n\n\nHeimdall in AndroidTamer\n\n\nVersion Installed: 1.4.0\n\n\n\n\nExternal Links:\n\n\n\n\nGithub Repository\n\n\nOfficial Website", 
+            "title": "Heimdall"
+        }, 
+        {
+            "location": "/Development/ROM Development/heimdall/#heimdall", 
+            "text": "Heimdall is a cross-platform open-source tool suite used to flash firmware (aka ROMs) onto Samsung mobile devices.", 
+            "title": "Heimdall"
+        }, 
+        {
+            "location": "/Development/ROM Development/heimdall/#how-does-it-work", 
+            "text": "Heimdall connects to a mobile device over USB and interact with software running on device known as Loke. Loke and Heimdall communicate via the custom Samsung-developed protocol sometimes referred to as the 'Odin protocol'. Low-level USB in Heimdall is handled by the popular open-source USB library, libusbx.", 
+            "title": "How does it work?"
+        }, 
+        {
+            "location": "/Development/ROM Development/heimdall/#why-heimdall", 
+            "text": "For internal use, Samsung developed their own firmware flashing tool known as 'Odin', named after the king of gods in Norse mythology. Loke, the software component that runs on the Samsung devices and provides the functionality necessary to flash, also seems to be named after an important character in Norse mythology (often translated as Loki). In this vein, our software was named 'Heimdall' after the Norse god and guardian of the Bifrost Bridge.", 
+            "title": "Why 'Heimdall'?"
+        }, 
+        {
+            "location": "/Development/ROM Development/heimdall/#heimdall-in-androidtamer", 
+            "text": "", 
+            "title": "Heimdall in AndroidTamer"
+        }, 
+        {
+            "location": "/Development/ROM Development/heimdall/#version-installed-140", 
+            "text": "", 
+            "title": "Version Installed: 1.4.0"
+        }, 
+        {
+            "location": "/Development/ROM Development/heimdall/#external-links", 
+            "text": "Github Repository  Official Website", 
+            "title": "External Links:"
+        }, 
+        {
+            "location": "/Examples/adb/", 
+            "text": "adb\n\n\nSimilar to \nfastboot\n, adb also has a devices command which will list the found compatible devices connected\n\n\n\n\nandroid@tamer~\n \nadb devices\n\n\n\n\nIt can also, like fastboot, reboot your device and reboot it into the bootloader or recovery etc\n\n\n\n\nandroid@tamer~\n \nadb reboot\n\n\nandroid@tamer~\n \nAndroid@Tamer~\nadb reboot bootloader\n\n\nandroid@tamer~\n \nadb reboot recovery\n\n\n\n\nGetting logs for diagnostics\n\n\n\n\nandroid@tamer~\n \nadb logcat \n logcat.txt\n\n\n\n\nInstall an application (apk format) from your hard drive to the device\n\n\n\n\nandroid@tamer~\n \nadb install \"C:\\path\\to\\apk.apk\"\n\n\n\n\nUsing push to move a file or directory from your computer to the device\n\n\n\n\nandroid@tamer~\n \nadb push C:\\path\\to\\file /path/on/device\n\n\n\n\nCopying a file or directory from your device to your computer\n\n\n\n\nandroid@tamer~\n \nadb pull /path/on/device C:\\path\\on\\computer\n\n\n\n\nADB can also be used to access the terminal shell on your device\n\n\n\n\nandroid@tamer~\n \nadb shell", 
+            "title": "Adb"
+        }, 
+        {
+            "location": "/Examples/adb/#adb", 
+            "text": "", 
+            "title": "adb"
+        }, 
+        {
+            "location": "/Examples/adb/#similar-to-fastboot-adb-also-has-a-devices-command-which-will-list-the-found-compatible-devices-connected", 
+            "text": "android@tamer~   adb devices", 
+            "title": "Similar to fastboot, adb also has a devices command which will list the found compatible devices connected"
+        }, 
+        {
+            "location": "/Examples/adb/#it-can-also-like-fastboot-reboot-your-device-and-reboot-it-into-the-bootloader-or-recovery-etc", 
+            "text": "android@tamer~   adb reboot  android@tamer~   Android@Tamer~ adb reboot bootloader  android@tamer~   adb reboot recovery", 
+            "title": "It can also, like fastboot, reboot your device and reboot it into the bootloader or recovery etc"
+        }, 
+        {
+            "location": "/Examples/adb/#getting-logs-for-diagnostics", 
+            "text": "android@tamer~   adb logcat   logcat.txt", 
+            "title": "Getting logs for diagnostics"
+        }, 
+        {
+            "location": "/Examples/adb/#install-an-application-apk-format-from-your-hard-drive-to-the-device", 
+            "text": "android@tamer~   adb install \"C:\\path\\to\\apk.apk\"", 
+            "title": "Install an application (apk format) from your hard drive to the device"
+        }, 
+        {
+            "location": "/Examples/adb/#using-push-to-move-a-file-or-directory-from-your-computer-to-the-device", 
+            "text": "android@tamer~   adb push C:\\path\\to\\file /path/on/device", 
+            "title": "Using push to move a file or directory from your computer to the device"
+        }, 
+        {
+            "location": "/Examples/adb/#copying-a-file-or-directory-from-your-device-to-your-computer", 
+            "text": "android@tamer~   adb pull /path/on/device C:\\path\\on\\computer", 
+            "title": "Copying a file or directory from your device to your computer"
+        }, 
+        {
+            "location": "/Examples/adb/#adb-can-also-be-used-to-access-the-terminal-shell-on-your-device", 
+            "text": "android@tamer~   adb shell", 
+            "title": "ADB can also be used to access the terminal shell on your device"
+        }, 
+        {
+            "location": "/Examples/fastboot/", 
+            "text": "Fastboot\n\n\nIf you you need a brief about what is \nfastboot\n you could read it \nhere\n.\n\n\nTo view the list of recognized devices\n\n\n\n\nandroid@tamer~\n \nfastboot devices\n\n\n\n\nTo reboot your device or to reboot it particularly into the bootloader or recovery\n\n\n\n\nandroid@tamer~\n \nfastboot reboot\n\n\nandroid@tamer~\n \nfastboot reboot bootloader\n\n\nandroid@tamer~\n \nfastboot reboot recovery\n\n\n\n\nTo flash a new recovery, system, radio, or kernel etc firmware file\n\n\n\n\nandroid@tamer~\n \nfastboot flash recovery \\path\\to\\MyRecoveryFirmware.img\n\n\n\n\nTo erase some partition on the device\n\n\n\n\nandroid@tamer~\n \nfastboot erase system\n\n\n\n\nTo wipe system, data, and the cache at the same time (would be used before a new ROM most of times)\n\n\n\n\nandroid@tamer~\n \nfastboot erase system -w\n\n\n\n\nTo reboot your device:\n\n\n\n\nandroid@tamer~\n \nfastboot reboot\n\n\n\n\nUsing fastboot to lock / unlock your bootloader\n\n\n\n\nandroid@tamer~\n \nfastboot oem lock\n\n\nandroid@tamer~\n \nfastboot oem unlock", 
+            "title": "Fastboot"
+        }, 
+        {
+            "location": "/Examples/fastboot/#fastboot", 
+            "text": "If you you need a brief about what is  fastboot  you could read it  here .", 
+            "title": "Fastboot"
+        }, 
+        {
+            "location": "/Examples/fastboot/#to-view-the-list-of-recognized-devices", 
+            "text": "android@tamer~   fastboot devices", 
+            "title": "To view the list of recognized devices"
+        }, 
+        {
+            "location": "/Examples/fastboot/#to-reboot-your-device-or-to-reboot-it-particularly-into-the-bootloader-or-recovery", 
+            "text": "android@tamer~   fastboot reboot  android@tamer~   fastboot reboot bootloader  android@tamer~   fastboot reboot recovery", 
+            "title": "To reboot your device or to reboot it particularly into the bootloader or recovery"
+        }, 
+        {
+            "location": "/Examples/fastboot/#to-flash-a-new-recovery-system-radio-or-kernel-etc-firmware-file", 
+            "text": "android@tamer~   fastboot flash recovery \\path\\to\\MyRecoveryFirmware.img", 
+            "title": "To flash a new recovery, system, radio, or kernel etc firmware file"
+        }, 
+        {
+            "location": "/Examples/fastboot/#to-erase-some-partition-on-the-device", 
+            "text": "android@tamer~   fastboot erase system", 
+            "title": "To erase some partition on the device"
+        }, 
+        {
+            "location": "/Examples/fastboot/#to-wipe-system-data-and-the-cache-at-the-same-time-would-be-used-before-a-new-rom-most-of-times", 
+            "text": "android@tamer~   fastboot erase system -w", 
+            "title": "To wipe system, data, and the cache at the same time (would be used before a new ROM most of times)"
+        }, 
+        {
+            "location": "/Examples/fastboot/#to-reboot-your-device", 
+            "text": "android@tamer~   fastboot reboot", 
+            "title": "To reboot your device:"
+        }, 
+        {
+            "location": "/Examples/fastboot/#using-fastboot-to-lock-unlock-your-bootloader", 
+            "text": "android@tamer~   fastboot oem lock  android@tamer~   fastboot oem unlock", 
+            "title": "Using fastboot to lock / unlock your bootloader"
+        }, 
+        {
+            "location": "/General/decompile/", 
+            "text": "Decompiling Application\n\n\nHow to decompile application in AndroidTamer\n\n\nAndroid Tamer has all the tools required to perform the application analysis manually, however we have gone one step ahead and added more automation to reduce the time spend on remembering command and running them.\n\n\nTo decompile application in AndroidTamer\n\n\nandroid@tamer ~\n apk2java \napk\n\n\n\n\n\nNOTE:\n The source code for \napk2java is here\n.\n\n\nThis will give you a folder structure as shown below\n\n\n\n\nHere \nsmali\n folder contains the smali version of the source code whereas \nsrc\n folder contains two subfolder \njad\n and \njadx\n containing source codes decompiled via these two decompilers respectively.\n\n\nIf you are not satisfied with the results you can also refer to the original jar created via enjarify in \njar\n folder.\n\n\nYou can launch a text editor in this directory using following command\n\n\nandroid@tamer ~\n geany ./\n\n\n\n\nCan other distributions use it ?\n\n\nYes, glad you asked \nfollow steps outlined here\n.", 
+            "title": "Decompiling Application"
+        }, 
+        {
+            "location": "/General/decompile/#decompiling-application", 
+            "text": "", 
+            "title": "Decompiling Application"
+        }, 
+        {
+            "location": "/General/decompile/#how-to-decompile-application-in-androidtamer", 
+            "text": "Android Tamer has all the tools required to perform the application analysis manually, however we have gone one step ahead and added more automation to reduce the time spend on remembering command and running them.  To decompile application in AndroidTamer  android@tamer ~  apk2java  apk   NOTE:  The source code for  apk2java is here .  This will give you a folder structure as shown below   Here  smali  folder contains the smali version of the source code whereas  src  folder contains two subfolder  jad  and  jadx  containing source codes decompiled via these two decompilers respectively.  If you are not satisfied with the results you can also refer to the original jar created via enjarify in  jar  folder.  You can launch a text editor in this directory using following command  android@tamer ~  geany ./", 
+            "title": "How to decompile application in AndroidTamer"
+        }, 
+        {
+            "location": "/General/decompile/#can-other-distributions-use-it", 
+            "text": "Yes, glad you asked  follow steps outlined here .", 
+            "title": "Can other distributions use it ?"
+        }, 
+        {
+            "location": "/General/multi_devices/", 
+            "text": "Managing multiple devices\n\n\nDue to massive fragmentation and the will of vendors to keep selling devices with old versions. Android Professionals are forced to work with multiple devices / emulator's with various versions of android loaded on them.\n\n\nWith this problem in mind we went ahead and \nwrote a shim\n which should help us with this problem. To manage multiple devices in AndroidTamer you need to follow these steps\n\n\n\n\nCreate a file in your home folder called as \n.adb_list\n\n\n\n\n\n\n\n\nOnce the list is configured then you can go ahead and check the status of each device.\n\n\n\n\n\n\nHere any device line marked as GREEN means its connected and RED means its not connected.\n\n\n\n\nNow to connect to this device follow this command\n\n\n\n\nandroid@tamer ~\n adb geny shell\n\n\n\n\nHere you can see instead of remembering the complex ip address or serial number we can simply use the new name provided for this functionality.", 
+            "title": "Managing multiple devices"
+        }, 
+        {
+            "location": "/General/multi_devices/#managing-multiple-devices", 
+            "text": "Due to massive fragmentation and the will of vendors to keep selling devices with old versions. Android Professionals are forced to work with multiple devices / emulator's with various versions of android loaded on them.  With this problem in mind we went ahead and  wrote a shim  which should help us with this problem. To manage multiple devices in AndroidTamer you need to follow these steps   Create a file in your home folder called as  .adb_list     Once the list is configured then you can go ahead and check the status of each device.    Here any device line marked as GREEN means its connected and RED means its not connected.   Now to connect to this device follow this command   android@tamer ~  adb geny shell  Here you can see instead of remembering the complex ip address or serial number we can simply use the new name provided for this functionality.", 
+            "title": "Managing multiple devices"
+        }, 
+        {
+            "location": "/General/packages/", 
+            "text": "Packages and Scripts\n\n\n\n\n\n\n\n\nName\n\n\nx86\n\n\nx64\n\n\n\n\n\n\n\n\n\n\nandroidtamer-adb: \nmultidevice\n \n \nscreenshot\n\n\n\n\n\n\n\n\n\n\nandbug\n\n\n\n\n\n\n\n\n\n\napk2java\n\n\n\n\n\n\n\n\n\n\napktool\n\n\n\n\n\n\n\n\n\n\nburpsuite-free\n\n\n\n\n\n\n\n\n\n\nbytecode-viewer\n\n\n\n\n\n\n\n\n\n\nclassyshark\n\n\n\n\n\n\n\n\n\n\ndex2jar\n\n\n\n\n\n\n\n\n\n\ndextra\n\n\n\n\n\n\n\n\n\n\ndroid-ff\n\n\n\n\n\n\n\n\n\n\ndrozer\n\n\n\n\n\n\n\n\n\n\ndrozer_checks\n\n\n\n\n\n\n\n\n\n\nenjarify\n\n\n\n\n\n\n\n\n\n\nimgtool\n\n\n\n\n\n\n\n\n\n\nj0din3\n\n\n\n\n\n\n\n\n\n\njaadas\n\n\n\n\n\n\n\n\n\n\njad\n\n\n\n\n\n\n\n\n\n\njadx\n\n\n\n\n\n\n\n\n\n\njd-gui\n\n\n\n\n\n\n\n\n\n\nMobSF\n\n\n\n\n\n\n\n\n\n\nPython packages\n\n\n\n\n\n\n\n\n\n\n- python-cement\n\n\n\n\n\n\n\n\n\n\n- python-configparser\n\n\n\n\n\n\n\n\n\n\n- python-dateutil\n\n\n\n\n\n\n\n\n\n\n- python-flask\n\n\n\n\n\n\n\n\n\n\n- python-flask-restless\n\n\n\n\n\n\n\n\n\n\n- python-frida\n\n\n\n\n\n\n\n\n\n\n- python-graphviz\n\n\n\n\n\n\n\n\n\n\n- python-mimeparse\n\n\n\n\n\n\n\n\n\n\n- python-mimerender\n\n\n\n\n\n\n\n\n\n\n- python-prompt-toolkit\n\n\n\n\n\n\n\n\n\n\n- python-psutil\n\n\n\n\n\n\n\n\n\n\n- python-pyfiglet\n\n\n\n\n\n\n\n\n\n\n- python-pygments\n\n\n\n\n\n\n\n\n\n\n- python-six\n\n\n\n\n\n\n\n\n\n\n- python-wcwidth\n\n\n\n\n\n\n\n\n\n\n- python-xhtml2pdf\n\n\n\n\n\n\n\n\n\n\nrubygem-dex-oracle\n\n\n\n\n\n\n\n\n\n\nrubygem-rubyzip\n\n\n\n\n\n\n\n\n\n\nsimplify\n\n\n\n\n\n\n\n\n\n\nsmali\n\n\n\n\n\n\n\n\n\n\nspflashtool\n\n\n\n\n\n\n\n\n\n\nsslscan\n\n\n\n\n\n\n\n\n\n\nvboxmanage\n\n\n\n\n\n\n\n\n\n\nyadd-dumper\n\n\n\n\n\n\n\n\n\n\nzaproxy", 
+            "title": "Packages"
+        }, 
+        {
+            "location": "/General/packages/#packages-and-scripts", 
+            "text": "Name  x86  x64      androidtamer-adb:  multidevice     screenshot      andbug      apk2java      apktool      burpsuite-free      bytecode-viewer      classyshark      dex2jar      dextra      droid-ff      drozer      drozer_checks      enjarify      imgtool      j0din3      jaadas      jad      jadx      jd-gui      MobSF      Python packages      - python-cement      - python-configparser      - python-dateutil      - python-flask      - python-flask-restless      - python-frida      - python-graphviz      - python-mimeparse      - python-mimerender      - python-prompt-toolkit      - python-psutil      - python-pyfiglet      - python-pygments      - python-six      - python-wcwidth      - python-xhtml2pdf      rubygem-dex-oracle      rubygem-rubyzip      simplify      smali      spflashtool      sslscan      vboxmanage      yadd-dumper      zaproxy", 
+            "title": "Packages and Scripts"
+        }, 
+        {
+            "location": "/General/python_packages/", 
+            "text": "Python Packages\n\n\nHere are some python packages which are pre-installed on AndroidTamer.\n\n\n\n\n\n\n\n\nPackage\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\ncement\n\n\nAdvanced CLI Application Framework for Python\n\n\n\n\n\n\nconfigparser\n\n\nThis library brings the updated configparser from Python 3.5 to Python 2.6-3.5.\n\n\n\n\n\n\ndateutil\n\n\nExtensions to the standard Python datetime module\n\n\n\n\n\n\nflask\n\n\nA microframework based on Werkzeug, Jinja2 and good intentions\n\n\n\n\n\n\nflask-restless\n\n\nA Flask extension for easy ReSTful API generation\n\n\n\n\n\n\nfrida\n\n\nInject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android\n\n\n\n\n\n\ngraphviz\n\n\nSimple Python interface for Graphviz\n\n\n\n\n\n\nmimeparse\n\n\nA module provides basic functions for parsing mime-type names and matching them against a list of media-ranges.\n\n\n\n\n\n\nmimerender\n\n\nRESTful HTTP Content Negotiation for Flask, Bottle, web.py and webapp2 (Google App Engine)\n\n\n\n\n\n\nprompt\n\n\nThis is a library for prompting input on the command line.\n\n\n\n\n\n\ntoolkit\n\n\nToolkit for script and utils\n\n\n\n\n\n\npsutil\n\n\npsutil is a cross-platform library for retrieving information onrunning processes and system utilization (CPU, memory, disks, network)in Python.\n\n\n\n\n\n\npyfiglet\n\n\nPure-python FIGlet implementation\n\n\n\n\n\n\npygments\n\n\nPygments is a syntax highlighting package written in Python.\n\n\n\n\n\n\nsix\n\n\nPython 2 and 3 compatibility utilities\n\n\n\n\n\n\nwcwidth\n\n\nMeasures number of Terminal column cells of wide-character codes\n\n\n\n\n\n\nxhtml2pdf\n\n\nPDF generator using HTML and CSS", 
+            "title": "Python packages"
+        }, 
+        {
+            "location": "/General/python_packages/#python-packages", 
+            "text": "Here are some python packages which are pre-installed on AndroidTamer.     Package  Description      cement  Advanced CLI Application Framework for Python    configparser  This library brings the updated configparser from Python 3.5 to Python 2.6-3.5.    dateutil  Extensions to the standard Python datetime module    flask  A microframework based on Werkzeug, Jinja2 and good intentions    flask-restless  A Flask extension for easy ReSTful API generation    frida  Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android    graphviz  Simple Python interface for Graphviz    mimeparse  A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges.    mimerender  RESTful HTTP Content Negotiation for Flask, Bottle, web.py and webapp2 (Google App Engine)    prompt  This is a library for prompting input on the command line.    toolkit  Toolkit for script and utils    psutil  psutil is a cross-platform library for retrieving information onrunning processes and system utilization (CPU, memory, disks, network)in Python.    pyfiglet  Pure-python FIGlet implementation    pygments  Pygments is a syntax highlighting package written in Python.    six  Python 2 and 3 compatibility utilities    wcwidth  Measures number of Terminal column cells of wide-character codes    xhtml2pdf  PDF generator using HTML and CSS", 
+            "title": "Python Packages"
+        }, 
+        {
+            "location": "/General/repo_configure/", 
+            "text": "AndroidTamer Repository in Debian 8\n\n\nHow to configure\n\n\n$ echo \ndeb https://repo.androidtamer.com Tamer4 main\n | sudo tee  /etc/apt/sources.list.d/repo_androidtamer_com.list\n\n\n\n\nAdding GPG Key\n\n\nwget -qO - https://androidtamer.com/repo.gpg.key | sudo apt-key add -\n\n\n\n\nEnable HTTPS Debian repositories\n\n\nsudo apt-get install apt-transport-https\n\n\n\n\nHow to install pacakges\n\n\n$ sudo apt-get update\n$ sudo apt-get install \npackage name\n\n\n\n\n\nGUI\n\n\n\n\nList of Available packages\n\n\nhttps://repo.androidtamer.com/packagelist.html", 
+            "title": "AndroidTamer Repository in Debian 8"
+        }, 
+        {
+            "location": "/General/repo_configure/#androidtamer-repository-in-debian-8", 
+            "text": "", 
+            "title": "AndroidTamer Repository in Debian 8"
+        }, 
+        {
+            "location": "/General/repo_configure/#how-to-configure", 
+            "text": "$ echo  deb https://repo.androidtamer.com Tamer4 main  | sudo tee  /etc/apt/sources.list.d/repo_androidtamer_com.list", 
+            "title": "How to configure"
+        }, 
+        {
+            "location": "/General/repo_configure/#adding-gpg-key", 
+            "text": "wget -qO - https://androidtamer.com/repo.gpg.key | sudo apt-key add -", 
+            "title": "Adding GPG Key"
+        }, 
+        {
+            "location": "/General/repo_configure/#enable-https-debian-repositories", 
+            "text": "sudo apt-get install apt-transport-https", 
+            "title": "Enable HTTPS Debian repositories"
+        }, 
+        {
+            "location": "/General/repo_configure/#how-to-install-pacakges", 
+            "text": "$ sudo apt-get update\n$ sudo apt-get install  package name", 
+            "title": "How to install pacakges"
+        }, 
+        {
+            "location": "/General/repo_configure/#gui", 
+            "text": "", 
+            "title": "GUI"
+        }, 
+        {
+            "location": "/General/repo_configure/#list-of-available-packages", 
+            "text": "https://repo.androidtamer.com/packagelist.html", 
+            "title": "List of Available packages"
+        }, 
+        {
+            "location": "/General/running_emulator/", 
+            "text": "Emulator\n\n\nAndroid Tamer by default comes with Android SDK. The emulator images are provided by Google, however users has to accept the license agreement to get those images. Hence it is on the user's behalf to accept the license agreement, and then download an AVD for themselves.\n\n\nHere are the steps how to download, setup and launch an Android emulator instance.\n\n\n\n\nAt this point Intel x86 emulator might not work due to limitation of AndroidTamer running inside a VM.\n\n\n\n\nWe first need to launch Android SDK Manager either via Tamer Menu or by simply from the terminal using the following command:\n\n\nandroid@tamer ~\n android sdk\n\n\nThis will launch SDK and then we need to select a image that we want to download. As shown below, Android 4.4.2 (API 19) ARM image along with Google API has been selected.\n\n\n\n\n\n\n\n\nWhen you select install you will have to \naccept the license agreement\n.\n\n\n\n\n\n\n\n\nThen the SDK manager automatically downloads, installs and configures the selected Emulator.\n\n\n\n\n\n\n\n\nOnce the installations successfully finish, the SDK screen should reflect the status as shown below.\n\n\n\n\n\n\n\n\nOnce the desired SDK images are installed we will now start the Android AVD manager.\n\n\nEither by going to menu and selecting 'Android AVD Manager' or directly via commandline\n\n\nandroid@tamer ~\n android avd\n\n\nIn the window you will have to select \nCreate\n and then fill the details as suggested below.\n\n\n\n\n\n\n\n\nOnce the options are set, select \"OK\" which results in AVD being created. When VM is sucessfully created you will get the message as shown below.\n\n\n\n\n\n\n\n\nWe can now launch the VM by selecting the entry and clicking on \"\nStart\n\"\n\n\n\n\n\n\n\n\nAs shown below a VM will be launched and we can see log via pidcat and adb detects the vm as an emulator.", 
+            "title": "Emulator"
+        }, 
+        {
+            "location": "/General/running_emulator/#emulator", 
+            "text": "Android Tamer by default comes with Android SDK. The emulator images are provided by Google, however users has to accept the license agreement to get those images. Hence it is on the user's behalf to accept the license agreement, and then download an AVD for themselves.  Here are the steps how to download, setup and launch an Android emulator instance.   At this point Intel x86 emulator might not work due to limitation of AndroidTamer running inside a VM.   We first need to launch Android SDK Manager either via Tamer Menu or by simply from the terminal using the following command:  android@tamer ~  android sdk  This will launch SDK and then we need to select a image that we want to download. As shown below, Android 4.4.2 (API 19) ARM image along with Google API has been selected.     When you select install you will have to  accept the license agreement .     Then the SDK manager automatically downloads, installs and configures the selected Emulator.     Once the installations successfully finish, the SDK screen should reflect the status as shown below.     Once the desired SDK images are installed we will now start the Android AVD manager.  Either by going to menu and selecting 'Android AVD Manager' or directly via commandline  android@tamer ~  android avd  In the window you will have to select  Create  and then fill the details as suggested below.     Once the options are set, select \"OK\" which results in AVD being created. When VM is sucessfully created you will get the message as shown below.     We can now launch the VM by selecting the entry and clicking on \" Start \"     As shown below a VM will be launched and we can see log via pidcat and adb detects the vm as an emulator.", 
+            "title": "Emulator"
+        }, 
+        {
+            "location": "/General/screenshot/", 
+            "text": "How to take screenshots of device\n\n\nTaking screenshots is very important part of any process be it development or anything else. ADB provides a way to take screenshot via screencap but then there is a specific command set that needs to be followed.\n\n\nHere we have created added another feature in our \nadb shim called as adb_wrapper\n \n\n\nnow to take screenshot all you need to do is \n\n\nandroid@tamer ~\n adb screenshot savefile.png\n\n\n\n\nNote:\n the screenshot output is always \n.png\n so keep that in mind\n\n\nLike all other command this command can also be used with multidevice setup\n\n\nandroid@tamer ~\n adb geny screenshot geny_shot.png\n\n\n\n\nThis will take a screenshot of geny machine and will save it as \ngeny_shot.png", 
+            "title": "How to take screenshots of device"
+        }, 
+        {
+            "location": "/General/screenshot/#how-to-take-screenshots-of-device", 
+            "text": "Taking screenshots is very important part of any process be it development or anything else. ADB provides a way to take screenshot via screencap but then there is a specific command set that needs to be followed.  Here we have created added another feature in our  adb shim called as adb_wrapper    now to take screenshot all you need to do is   android@tamer ~  adb screenshot savefile.png  Note:  the screenshot output is always  .png  so keep that in mind  Like all other command this command can also be used with multidevice setup  android@tamer ~  adb geny screenshot geny_shot.png  This will take a screenshot of geny machine and will save it as  geny_shot.png", 
+            "title": "How to take screenshots of device"
+        }, 
+        {
+            "location": "/General/tools_mindmap/", 
+            "text": "MindMap: Tools Present in AndroidTamer\n\n\n\n\nAndroid Tamer 4\n\n\nCustom Tools\n\n\nadb wrapper : \nmultidevice\n \nscreenshot\n and more\n\n\napk2java\n\n\ndrozer-checks\n\n\n\n\n\n\nGoogle Tools \n\n\nAndroid SDK\n\n\nAndroid NDK\n\n\n\n\n\n\nDevelopment\n\n\nAndroid Studio\n\n\nproguard\n\n\nvisualvm\n\n\ngradle\n\n\n\n\n\n\nStatic and Dynamic Analysis\n\n\nMobSF\n\n\ndrozer\n\n\nfindbug\n\n\nflawfinder\n\n\n\n\n\n\nReverse Enginering\n\n\naapt\n\n\npidcat\n\n\ndex2jar\n\n\nenjarify\n\n\napktool\n\n\njd-gui\n\n\njad\n\n\njadx\n\n\nsmali\n\n\n\n\n\n\nPentesting\n\n\nOWASP ZAP\n\n\nBurpsuite-free\n\n\nw3af\n\n\nnikto\n\n\nnmap\n\n\nsslscan\n\n\nwireshark / tshark \n\n\ntcpdump\n\n\nskipfish\n\n\nwapiti\n\n\nratproxy\n\n\n\n\n\n\nForensic\n\n\nvolatility\n\n\nautopsy\n\n\ndc3dd\n\n\ndcfldd\n\n\ndff\n\n\next4magic\n\n\nscalpel\n\n\nsleuthkit\n\n\nexif\n\n\nmetacam\n\n\nexiftags\n\n\nexifprobe\n\n\ntestdisk\n\n\nsteghide\n\n\nguymager\n\n\nrdd\n\n\nfatcat\n\n\nforemost\n\n\n\n\n\n\nRom Development\n\n\nfastboot\n\n\nheimdall\n\n\nflashrom", 
+            "title": "MindMap: Tools Present in AndroidTamer"
+        }, 
+        {
+            "location": "/General/tools_mindmap/#mindmap-tools-present-in-androidtamer", 
+            "text": "Android Tamer 4  Custom Tools  adb wrapper :  multidevice   screenshot  and more  apk2java  drozer-checks    Google Tools   Android SDK  Android NDK    Development  Android Studio  proguard  visualvm  gradle    Static and Dynamic Analysis  MobSF  drozer  findbug  flawfinder    Reverse Enginering  aapt  pidcat  dex2jar  enjarify  apktool  jd-gui  jad  jadx  smali    Pentesting  OWASP ZAP  Burpsuite-free  w3af  nikto  nmap  sslscan  wireshark / tshark   tcpdump  skipfish  wapiti  ratproxy    Forensic  volatility  autopsy  dc3dd  dcfldd  dff  ext4magic  scalpel  sleuthkit  exif  metacam  exiftags  exifprobe  testdisk  steghide  guymager  rdd  fatcat  foremost    Rom Development  fastboot  heimdall  flashrom", 
+            "title": "MindMap: Tools Present in AndroidTamer"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/", 
+            "text": "MobSF: Mobile Security Framework\n\n\nHow to Use with AndroidTamer\n\n\nMobSF is preconfigured in the AndroidTamer Packages\n\n\nLaunch MobSF via \n\n\nandroid@tamer ~\n mobsf\n\n\n\nNow you just need to navigate to \n\n\nhttp://localhost:3000\n\n\nand you should have running MobSF instance.\n\n\n\n\nAt this point you can see the console output, for first time it will create folder in ~ i.e. user home directory.\n\n\nA folder is created in \n~/.mobsf/\n which will contain the file\n\n\nNote:\n Remember you don't need to run this command as sudo. Run this as normal user.\n\n\nHow is it different from Original Source Code\n\n\nOriginal sourcecode: \nhttps://github.com/ajinabraham/Mobile-Security-Framework-MobSF\n\n\nModified sourcecode: \nhttps://github.com/AndroidTamer/Mobile-Security-Framework-MobSF\n\n\nMajor difference is in the approach how tool will store data. In original code, the author assumes the standard play - that user will git clone and then all data will be stored inside the folder. However for distributions thats not how we wanted it to work so the code that we modify is mainly the settings file where we ensure all data that needs to be dynamic in nature is sourced from the users home directory and not the default location.\n\n\nThis allows flexibility that multiple users can run MobSF and have there own results. This also allows us to keep MobSF updates as distinct as possible. However this also puts us in a position where we can't push MobSF updates as soon as they are released we are working with the author to streamline the process.\n\n\nThings to keep in mind\n\n\n\n\nDon't\n run the command as \nsudo\n user.\n\n\nIf you get error messages around permission denied, those can be safely ignored as all commands are by default in path and hence those are non needed steps.\n\n\n\n\nSoftware Details\n\n\nAuthor: Ajin Abraham\n\n\nURL: \nhttps://github.com/ajinabraham/Mobile-Security-Framework-MobSF\n\n\nFrom the \nwebsite\n itself\n\n\nMobile Security Framework is an intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.\n\n\n\nAdditional References\n\n\n \n \n \n \nNullcon Goa 2016 - Automated Mobile Application Security Testing with Mobile Security Framework (MobSF)\n \n from \nAjin Abraham\n \n\n\n\n\n\n\n \n \n \n \nAutomated Security Analysis of Android \n iOS Applications with Mobile Security Framework - c0c0n 2015\n \n from \nAjin Abraham\n \n\n\n\n\n\n\n \n \n \n \nG4H Webcast: Automated Security Analysis of Mobile Applications with Mobile Security Framework\n \n from \nAjin Abraham\n \n\n\n\n\n\n\nTODO for Guide\n\n\n\n\nAdd images to show how process works\n\n\nLink to the official guide or write your own", 
+            "title": "MobSF: Mobile Security Framework"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#mobsf-mobile-security-framework", 
+            "text": "", 
+            "title": "MobSF: Mobile Security Framework"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#how-to-use-with-androidtamer", 
+            "text": "MobSF is preconfigured in the AndroidTamer Packages  Launch MobSF via   android@tamer ~  mobsf  Now you just need to navigate to   http://localhost:3000  and you should have running MobSF instance.   At this point you can see the console output, for first time it will create folder in ~ i.e. user home directory.  A folder is created in  ~/.mobsf/  which will contain the file  Note:  Remember you don't need to run this command as sudo. Run this as normal user.", 
+            "title": "How to Use with AndroidTamer"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#how-is-it-different-from-original-source-code", 
+            "text": "Original sourcecode:  https://github.com/ajinabraham/Mobile-Security-Framework-MobSF  Modified sourcecode:  https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF  Major difference is in the approach how tool will store data. In original code, the author assumes the standard play - that user will git clone and then all data will be stored inside the folder. However for distributions thats not how we wanted it to work so the code that we modify is mainly the settings file where we ensure all data that needs to be dynamic in nature is sourced from the users home directory and not the default location.  This allows flexibility that multiple users can run MobSF and have there own results. This also allows us to keep MobSF updates as distinct as possible. However this also puts us in a position where we can't push MobSF updates as soon as they are released we are working with the author to streamline the process.", 
+            "title": "How is it different from Original Source Code"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#things-to-keep-in-mind", 
+            "text": "Don't  run the command as  sudo  user.  If you get error messages around permission denied, those can be safely ignored as all commands are by default in path and hence those are non needed steps.", 
+            "title": "Things to keep in mind"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#software-details", 
+            "text": "", 
+            "title": "Software Details"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#author-ajin-abraham", 
+            "text": "", 
+            "title": "Author: Ajin Abraham"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#url-httpsgithubcomajinabrahammobile-security-framework-mobsf", 
+            "text": "From the  website  itself  Mobile Security Framework is an intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.", 
+            "title": "URL: https://github.com/ajinabraham/Mobile-Security-Framework-MobSF"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#additional-references", 
+            "text": "Nullcon Goa 2016 - Automated Mobile Application Security Testing with Mobile Security Framework (MobSF)    from  Ajin Abraham             Automated Security Analysis of Android   iOS Applications with Mobile Security Framework - c0c0n 2015    from  Ajin Abraham             G4H Webcast: Automated Security Analysis of Mobile Applications with Mobile Security Framework    from  Ajin Abraham", 
+            "title": "Additional References"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/MobSF/#todo-for-guide", 
+            "text": "Add images to show how process works  Link to the official guide or write your own", 
+            "title": "TODO for Guide"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/drozer/", 
+            "text": "Drozer\n\n\nOverview\n\n\ndrozer (formerly Mercury) is the leading security testing framework for Android.\n\n\ndrozer allows you to search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS.\n\n\ndrozer provides tools to help you use, share and understand public Android exploits. It helps you to deploy a drozer Agent to a device through exploitation or social engineering. Using weasel (MWR's advanced exploitation payload) drozer is able to maximise the permissions available to it by installing a full agent, injecting a limited agent into a running process, or connecting a reverse shell to act as a Remote Access Tool (RAT).\n\n\nSource:\n \nhttps://github.com/mwrlabs/drozer\n\n\nHow to use with AndroidTamer\n\n\nDrozer is already pre configured within AndroidTamer. However there are some steps required before starting drozer.\n\n\n\n\nWe need to start device / emulator and connect that to the AndroidTamer Machine.\n\n\nOnce device connected we need to install a drozer_client APK.\n\n\nDownload the \nclient APK from the official website\n\n\nandroid@tamer ~/Downloads\n adb install ./drozer-agent-2.3.4.apk\n\n\nOnce device shows that the apk is installed then we are ready to use drozer\n\n\nTo start using drozer type following \n\n\nandroid@tamer ~\n drozer_start \ndevice_name\n\n\n\n\nDynamic Assessment via Drozer\n\n\nDrozer at this point doesn't provide html/xml style reporting, instead the report output is directly provided to the console.\n\n\nAndroidTamer has a build in script which will automatically run all the modules that are available in drozer and will give you a textual output on screen. Its advised to save the output in a text file for further / delayed analysis.\n\n\nandroid@tamer ~\n drozer_check \npackage name\n \ndevice_name\n\n\n\n\nKnown issues\n\n\nQuestion:\n Why am I getting error \"Magic number incorrect\" ?\n\n\nAnswer:\n\nYou are running drozer on a x86 machine or genymotion emulator. There is a known issue and that's the reason why you get those errors.\n\nRefer here\n\n\nQuestion:\n Drozer caused errors\n\n\nAnswer:\n \nIf you find error in drozer please \nraise an issue here\n. However, if you feel issue is with the automation please \nraise an issue here\n.\n\n\nExternal Links\n\n\n\n\nAndroidTamer drozer repository (Github)\n\n\nOriginal Github repository\n\n\nOfficial Webpage\n\n\nDrozer User Guide", 
+            "title": "Drozer"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/drozer/#drozer", 
+            "text": "", 
+            "title": "Drozer"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/drozer/#overview", 
+            "text": "drozer (formerly Mercury) is the leading security testing framework for Android.  drozer allows you to search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS.  drozer provides tools to help you use, share and understand public Android exploits. It helps you to deploy a drozer Agent to a device through exploitation or social engineering. Using weasel (MWR's advanced exploitation payload) drozer is able to maximise the permissions available to it by installing a full agent, injecting a limited agent into a running process, or connecting a reverse shell to act as a Remote Access Tool (RAT).  Source:   https://github.com/mwrlabs/drozer", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/drozer/#how-to-use-with-androidtamer", 
+            "text": "Drozer is already pre configured within AndroidTamer. However there are some steps required before starting drozer.   We need to start device / emulator and connect that to the AndroidTamer Machine.  Once device connected we need to install a drozer_client APK.  Download the  client APK from the official website  android@tamer ~/Downloads  adb install ./drozer-agent-2.3.4.apk  Once device shows that the apk is installed then we are ready to use drozer  To start using drozer type following   android@tamer ~  drozer_start  device_name", 
+            "title": "How to use with AndroidTamer"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/drozer/#dynamic-assessment-via-drozer", 
+            "text": "Drozer at this point doesn't provide html/xml style reporting, instead the report output is directly provided to the console.  AndroidTamer has a build in script which will automatically run all the modules that are available in drozer and will give you a textual output on screen. Its advised to save the output in a text file for further / delayed analysis.  android@tamer ~  drozer_check  package name   device_name", 
+            "title": "Dynamic Assessment via Drozer"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/drozer/#known-issues", 
+            "text": "Question:  Why am I getting error \"Magic number incorrect\" ?  Answer: \nYou are running drozer on a x86 machine or genymotion emulator. There is a known issue and that's the reason why you get those errors. Refer here  Question:  Drozer caused errors  Answer:  \nIf you find error in drozer please  raise an issue here . However, if you feel issue is with the automation please  raise an issue here .", 
+            "title": "Known issues"
+        }, 
+        {
+            "location": "/Security Assessment/Automated Analysis/drozer/#external-links", 
+            "text": "AndroidTamer drozer repository (Github)  Original Github repository  Official Webpage  Drozer User Guide", 
+            "title": "External Links"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/", 
+            "text": "APKTool\n\n\nOverview\n\n\nA tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications; it makes possible to debug smali code step by step. Also it makes working with an app easier because of project-like file structure and automation of some repetitive tasks like building apk, etc.\n\n\nIt is NOT intended for piracy and other non-legal uses. It could be used for localizing, adding some features or support for custom platforms, analyzing applications and much more.\n\n\nFeatures\n\n\n\n\nDisassembling resources to nearly original form (including \nresources.arsc\n, \nclasses.dex\n, \n9.png.\n and \nXMLs\n)\n\n\nRebuilding decoded resources back to binary APK/JAR\n\n\nOrganizing and handling APKs that depend on framework resources\n\n\nSmali Debugging\n\n\nHelping with repetitive tasks\n\n\n\n\nAuthors\n\n\n\n\nConnor Tumbleson\n - Current Maintainer\n\n\nRyszard Wi\u015bniewski\n - Original Creator\n\n\n\n\nAPKTool on AndroidTamer\n\n\n\n\n\n\n\n\nCheatsheet\n\n\n\n\nTo decompile an APK:\n  \napktool d file.apk\n\n\nTo decompile an APK and put it under a specific folder name:\n  \napktool d file.apk folder\n\n\nTo compile the smali code to APK:\n  \napktool b folder\n\n\n\n\nExternal Links\n\n\n\n\nOfficial Website\n\n\nOfficial Documentation\n\n\nXDA Thread\n\n\nGitter #apktool\n\n\nFreenode #apktool", 
+            "title": "APKTool"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/#apktool", 
+            "text": "", 
+            "title": "APKTool"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/#overview", 
+            "text": "A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications; it makes possible to debug smali code step by step. Also it makes working with an app easier because of project-like file structure and automation of some repetitive tasks like building apk, etc.  It is NOT intended for piracy and other non-legal uses. It could be used for localizing, adding some features or support for custom platforms, analyzing applications and much more.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/#features", 
+            "text": "Disassembling resources to nearly original form (including  resources.arsc ,  classes.dex ,  9.png.  and  XMLs )  Rebuilding decoded resources back to binary APK/JAR  Organizing and handling APKs that depend on framework resources  Smali Debugging  Helping with repetitive tasks", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/#authors", 
+            "text": "Connor Tumbleson  - Current Maintainer  Ryszard Wi\u015bniewski  - Original Creator", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/#apktool-on-androidtamer", 
+            "text": "", 
+            "title": "APKTool on AndroidTamer"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/#cheatsheet", 
+            "text": "To decompile an APK:\n   apktool d file.apk  To decompile an APK and put it under a specific folder name:\n   apktool d file.apk folder  To compile the smali code to APK:\n   apktool b folder", 
+            "title": "Cheatsheet"
+        }, 
+        {
+            "location": "/Security Assessment/Manual Analysis/APKTool/#external-links", 
+            "text": "Official Website  Official Documentation  XDA Thread  Gitter #apktool  Freenode #apktool", 
+            "title": "External Links"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/", 
+            "text": "Burp Suite\n\n\n\n\nFor all AndroidTamer users who expected to receive a premium version of Burp Suite with the VM file, sorry to say that AndroidTamer is tamed to have Burp Suite free version. If you would like to have a premium version, you could but one at \nhttps://portswigger.net/buy/\n\n\nOverview\n\n\nBurp Suite is an integrated platform for performing security testing of web applications. It is designed to support the methodology of a hands-on tester, and gives you complete control over the actions that it performs, and deep analysis of the results. Burp contains several tools that work together to carry out virtually any task you will encounter in your testing. It can automate all kinds of tasks in customizable ways, and lets you combine manual and automated techniques to make your testing faster, more reliable and more fun.\n\n\nWhy Burp Suite ?\n\n\nAlmost all Android apps require internet access to do its duty - be it Banking app or Banking trojan app. So if you don't trust an app or if you want to test its healthy relationship with the internet, you need a software to analyze its requests and response. To be more technical, you need proxy software through which you direct the app's traffic and then decide to let it to its destination or drop them. This is where Burp Suite comes in action.\n\n\nBurp Suite is used my many hackers and pentesters to see the requests and responses related to WebApps. You could also use to test your Android app's requests and responses.\n\n\nBurp Suite on AndroidTamer\n\n\nVersion: 1.6.32\n\n\nYou can launch Burp Suite (Free version) using following command\n\n\nandroid@tamer ~\n \nburpsuite-free\n\n\nOnce you type the above command in the terminal, Burp Suite loads. After loading, \"License Agreement\" pops-up as shown in the picture below.\n\n\n\n\nIf you have time, please go through the License Agreement and click \"I Agree\" or click \"I Agree\" and read it some other time. But don't forget to \nclick \"I Agree\"\n.\n\n\n\n\nDocumentation\n\n\nBurp Suite has a very good official documentation. You could access it in the links give below.\n\n\nQuick documentation links to various functionalities of Burp Suite (including premium version functions - helpful if you buy one).\n\n\n\n\nLinks:\n\n\n\n\nBurp Suite Documentation\n\n\nTarget\n\n\nProxy\n\n\nSpider\n\n\nScanner\n\n\nIntruder\n\n\nRepeater\n\n\nSequencer\n\n\nDecoder\n\n\nComparer\n\n\nExtender\n\n\nSuite Functions\n\n\nOptions\n\n\nBurp Collaborator\n\n\n\n\n\n\nExternal links\n\n\n\n\nOfficial Website\n\n\nOfficial Documentation\n\n\nBuy Burp Suite", 
+            "title": "Burpsuite"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/#burp-suite", 
+            "text": "For all AndroidTamer users who expected to receive a premium version of Burp Suite with the VM file, sorry to say that AndroidTamer is tamed to have Burp Suite free version. If you would like to have a premium version, you could but one at  https://portswigger.net/buy/", 
+            "title": "Burp Suite"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/#overview", 
+            "text": "Burp Suite is an integrated platform for performing security testing of web applications. It is designed to support the methodology of a hands-on tester, and gives you complete control over the actions that it performs, and deep analysis of the results. Burp contains several tools that work together to carry out virtually any task you will encounter in your testing. It can automate all kinds of tasks in customizable ways, and lets you combine manual and automated techniques to make your testing faster, more reliable and more fun.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/#why-burp-suite", 
+            "text": "Almost all Android apps require internet access to do its duty - be it Banking app or Banking trojan app. So if you don't trust an app or if you want to test its healthy relationship with the internet, you need a software to analyze its requests and response. To be more technical, you need proxy software through which you direct the app's traffic and then decide to let it to its destination or drop them. This is where Burp Suite comes in action.  Burp Suite is used my many hackers and pentesters to see the requests and responses related to WebApps. You could also use to test your Android app's requests and responses.", 
+            "title": "Why Burp Suite ?"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/#burp-suite-on-androidtamer", 
+            "text": "", 
+            "title": "Burp Suite on AndroidTamer"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/#version-1632", 
+            "text": "You can launch Burp Suite (Free version) using following command  android@tamer ~   burpsuite-free  Once you type the above command in the terminal, Burp Suite loads. After loading, \"License Agreement\" pops-up as shown in the picture below.   If you have time, please go through the License Agreement and click \"I Agree\" or click \"I Agree\" and read it some other time. But don't forget to  click \"I Agree\" .", 
+            "title": "Version: 1.6.32"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/#documentation", 
+            "text": "Burp Suite has a very good official documentation. You could access it in the links give below.  Quick documentation links to various functionalities of Burp Suite (including premium version functions - helpful if you buy one).   Links:   Burp Suite Documentation  Target  Proxy  Spider  Scanner  Intruder  Repeater  Sequencer  Decoder  Comparer  Extender  Suite Functions  Options  Burp Collaborator", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/Burpsuite/#external-links", 
+            "text": "Official Website  Official Documentation  Buy Burp Suite", 
+            "title": "External links"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nikto/", 
+            "text": "nikto\n\n\n\n\nOverview\n\n\nNikto is an Open Source (GPL) web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs, checks for outdated versions of over 1250 servers, and version specific problems on over 270 servers. It also checks for server configuration items such as the presence of multiple index files, HTTP server options, and will attempt to identify installed web servers and software. Scan items and plugins are frequently updated and can be automatically updated.\n\n\nNikto is not designed as a stealthy tool. It will test a web server in the quickest time possible, and is obvious in log files or to an IPS/IDS. However, there is support for LibWhisker's anti-IDS methods in case you want to give it a try (or test your IDS system).\n\n\nNot every check is a security problem, though most are. There are some items that are \"info only\" type checks that look for things that may not have a security flaw, but the webmaster or security engineer may not know are present on the server. These items are usually marked appropriately in the information printed. There are also some checks for unknown items which have been seen scanned for in log files.\n\n\nNikto on AndroidTamer\n\n\nVersion: 2.1.5\n\n\nYou can launch Nmap using following command\n\n\nandroid@tamer ~\n \nnikto\n\n\n\n\nExternal Links\n\n\n\n\nOfficial Website\n\n\nOfficial Documentation\n\n\nGithub Repository", 
+            "title": "Nikto"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nikto/#nikto", 
+            "text": "", 
+            "title": "nikto"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nikto/#overview", 
+            "text": "Nikto is an Open Source (GPL) web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs, checks for outdated versions of over 1250 servers, and version specific problems on over 270 servers. It also checks for server configuration items such as the presence of multiple index files, HTTP server options, and will attempt to identify installed web servers and software. Scan items and plugins are frequently updated and can be automatically updated.  Nikto is not designed as a stealthy tool. It will test a web server in the quickest time possible, and is obvious in log files or to an IPS/IDS. However, there is support for LibWhisker's anti-IDS methods in case you want to give it a try (or test your IDS system).  Not every check is a security problem, though most are. There are some items that are \"info only\" type checks that look for things that may not have a security flaw, but the webmaster or security engineer may not know are present on the server. These items are usually marked appropriately in the information printed. There are also some checks for unknown items which have been seen scanned for in log files.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nikto/#nikto-on-androidtamer", 
+            "text": "", 
+            "title": "Nikto on AndroidTamer"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nikto/#version-215", 
+            "text": "You can launch Nmap using following command  android@tamer ~   nikto", 
+            "title": "Version: 2.1.5"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nikto/#external-links", 
+            "text": "Official Website  Official Documentation  Github Repository", 
+            "title": "External Links"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nmap/", 
+            "text": "Nmap\n\n\nOverview\n\n\n\n\nNmap is an open source utility for network discovery and security auditing. It is one of the most essential tools for pentesters. It has features like OS detection of systems in a network, exploiting basic vulnerabilities, bruteforcing and much more. There is a huge community developing and supporting the Nmap project. You could manually download Nmap at \nhttps://nmap.org/download.html\n\n\nFrom the official website:\n\n\nNmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. Nmap runs on all major computer operating systems, and official binary packages are available for Linux, Windows, and Mac OS X.\n\n\nNmap on AndroidTamer\n\n\nVersion: 6.47\n\n\nYou can launch Nmap using following command\n\n\nandroid@tamer ~\n \nnmap\n\n\n\n\nExternal Links\n\n\n\n\nOfficial Website\n\n\nOfficial Documentation\n\n\nNmap Reference Guide\n\n\nNmap Scripts\n\n\nPresentation - Video\n\n\nThe Official Nmap Project Guide to Network Discovery and Security Scanning", 
+            "title": "Nmap"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nmap/#nmap", 
+            "text": "", 
+            "title": "Nmap"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nmap/#overview", 
+            "text": "Nmap is an open source utility for network discovery and security auditing. It is one of the most essential tools for pentesters. It has features like OS detection of systems in a network, exploiting basic vulnerabilities, bruteforcing and much more. There is a huge community developing and supporting the Nmap project. You could manually download Nmap at  https://nmap.org/download.html  From the official website:  Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. Nmap runs on all major computer operating systems, and official binary packages are available for Linux, Windows, and Mac OS X.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nmap/#nmap-on-androidtamer", 
+            "text": "", 
+            "title": "Nmap on AndroidTamer"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nmap/#version-647", 
+            "text": "You can launch Nmap using following command  android@tamer ~   nmap", 
+            "title": "Version: 6.47"
+        }, 
+        {
+            "location": "/Security Assessment/Pentesting/nmap/#external-links", 
+            "text": "Official Website  Official Documentation  Nmap Reference Guide  Nmap Scripts  Presentation - Video  The Official Nmap Project Guide to Network Discovery and Security Scanning", 
+            "title": "External Links"
+        }, 
+        {
+            "location": "/Training/", 
+            "text": "Training\n\n\nThis section deals with the write-ups on exploiting different publicly available vulnerable Android apps. The apps include but are not limited to:\n\n\n\n\nDamn Insecure and Vulnerable Application\n - \nSolution\n\n\nAndroid InsecureBankv2\n\n\nOWASP GoatDroid Project\n\n\nDamn Vulnerable Hybrid Mobile App\n\n\nDigitalbank\n\n\nDodoVulnerableBank\n\n\nVulnerableAndroidAppOracle\n\n\nvulnerable-application\n\n\nVulnApp\n\n\nPurposefully Insecure and Vulnerable Android Application", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/Training/#training", 
+            "text": "This section deals with the write-ups on exploiting different publicly available vulnerable Android apps. The apps include but are not limited to:   Damn Insecure and Vulnerable Application  -  Solution  Android InsecureBankv2  OWASP GoatDroid Project  Damn Vulnerable Hybrid Mobile App  Digitalbank  DodoVulnerableBank  VulnerableAndroidAppOracle  vulnerable-application  VulnApp  Purposefully Insecure and Vulnerable Android Application", 
+            "title": "Training"
+        }, 
+        {
+            "location": "/Training/DIVA/00_Home/", 
+            "text": "Damn Insecure \n Vulnerable App (DIVA)\n\n\nDIVA is an Android app intentionally designed to be insecure. The aim of this app is to teach developers/QA/security professionals, flaws that are generally present in the apps due to poor or insecure coding practices.\n\n\nWhat is included in DIVA ?\n\n\nThe app covers common vulnerabilities in Android apps ranging from insecure storage, input validation to access control issues. Few vulnerabilities in native code have also been included, which makes it more interesting from the perspective of covering both Java and C vulnerabilities.\n\n\nThere are 13 challenges within the app with each having a vulnerability.\n\n\n\n\n \n\n\n\n\nWhere can I get DIVA ?\n\n\n\n\nThe Source can be downloaded from GitHub - \nhttps://github.com/payatu/diva-android\n\n\nYou can also download the debug version of the app from \nhttp://www.payatu.com/damn-insecure-and-vulnerable-app/", 
+            "title": "00 Home"
+        }, 
+        {
+            "location": "/Training/DIVA/00_Home/#damn-insecure-vulnerable-app-diva", 
+            "text": "DIVA is an Android app intentionally designed to be insecure. The aim of this app is to teach developers/QA/security professionals, flaws that are generally present in the apps due to poor or insecure coding practices.", 
+            "title": "Damn Insecure &amp; Vulnerable App (DIVA)"
+        }, 
+        {
+            "location": "/Training/DIVA/00_Home/#what-is-included-in-diva", 
+            "text": "The app covers common vulnerabilities in Android apps ranging from insecure storage, input validation to access control issues. Few vulnerabilities in native code have also been included, which makes it more interesting from the perspective of covering both Java and C vulnerabilities.  There are 13 challenges within the app with each having a vulnerability.", 
+            "title": "What is included in DIVA ?"
+        }, 
+        {
+            "location": "/Training/DIVA/00_Home/#where-can-i-get-diva", 
+            "text": "The Source can be downloaded from GitHub -  https://github.com/payatu/diva-android  You can also download the debug version of the app from  http://www.payatu.com/damn-insecure-and-vulnerable-app/", 
+            "title": "Where can I get DIVA ?"
+        }, 
+        {
+            "location": "/Training/DIVA/01_Insecure_Logging/", 
+            "text": "Insecure Logging\n\n\nWhen you click on the \nInsecure Logging\n option, you will be welcomed by the following screen.\n\n\n\n\nThe screen is pretty simple. It asks for credit card number.\n\n\nEnter some random credit card number and click \nCheck out\n. You would notice a generic error message: \nAn error occured. Please try again later.\n\n\n\n\nEverything seems normal.\n\n\nLets see if the application has logged anything. We can use Android's inbuilt commandline tool - \nlogcat\n - to view the logs.\n\n\nExecute the command \nadb shell logcat\n. (Please ensure that the device/emulator is connected to adb)\n\n\n\n\nIt is clear that the app is logging the sensitive information (Credit card number). These logs are accessible by other apps which has read permission to logs.\n\n\nTakeaway\n\n\n\n\nLogcat\n is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class.\n\n\nCheck for logs to get more information on how the target app handles inputs / what the android app logs", 
+            "title": "01 Insecure Logging"
+        }, 
+        {
+            "location": "/Training/DIVA/01_Insecure_Logging/#insecure-logging", 
+            "text": "When you click on the  Insecure Logging  option, you will be welcomed by the following screen.   The screen is pretty simple. It asks for credit card number.  Enter some random credit card number and click  Check out . You would notice a generic error message:  An error occured. Please try again later.   Everything seems normal.  Lets see if the application has logged anything. We can use Android's inbuilt commandline tool -  logcat  - to view the logs.  Execute the command  adb shell logcat . (Please ensure that the device/emulator is connected to adb)   It is clear that the app is logging the sensitive information (Credit card number). These logs are accessible by other apps which has read permission to logs.", 
+            "title": "Insecure Logging"
+        }, 
+        {
+            "location": "/Training/DIVA/01_Insecure_Logging/#takeaway", 
+            "text": "Logcat  is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class.  Check for logs to get more information on how the target app handles inputs / what the android app logs", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/02_Hardcoding_Issues/", 
+            "text": "Hardcoding Issues\n\n\nWhen you look at the second challenge, the objective says \nto find out what is hardcoded and where\n\n\n\n\nThere are different ways to check the hardcoded values in an Android app, but most popular method is to \ndecompile the APK file\n and look at the pseudo-source code.\n\n\nBefore directly jumping into decompilation tools, lets learn a few basics.\n\n\nAPK is a package file format used by Android operating system. One could view the contents of the APK file by just unzipping it. Android apps are coded in Java, but when you compile the app using Android Studio, the java code is converted to Dalvik bytecode instead of Java bytecode. All the Java code is collectively compiled into a single Dalvik bytecode file called \nclasses.dex\n. Inorder to view the code of an app, we have to decompile the \nclasses.dex\n file.\n\n\nLet's start hunting for the hardcoded value.\n\n\nRight click the apk file and click \nExtract Here\n option to unzip the file.\n\n\n\n\nNow the contents will be in the directory \njakhar.aseem.diva-1.apk_FILES\n. (\nIt may differ in your case as the folder is created as per the apk file's name.\n) Enter the folder and you can see a few folders and files.\n\n\n\n\nAs mentioned before, to view the code we have to decompile \nclasses.dex\n file. We can use a tool called \ndex2jar\n. It converts Android \n.dex\n file to Java \n.jar\n file. Execute \nd2j-dex2jar.sh classes.dex\n. The command creates a new file \nclasses-dex2jar.jar\n\n\n\n\nNow we can use a Java decompiler to view the code in the created \n.jar\n file. Execute \njd-gui classes-dex2jar.jar\n. This command create a GUI window and displays the Java pseudo-code of the \nclasses-dex2jar.jar\n file. From the name of the challenge \nwe understand that its class name would be something like HardcodeActivity.class\n. Click on the class file. On viewing the code, it is clearly visible that the app checks for the value \nvendorsecretkey\n.\n\n\n\n\nType the key in the Android app.\n\n\n\n\nTakeaway\n\n\n\n\nAPK is a file packaging format and could be unzipped\n\n\nJava gets compiled to Dalvik bytecode when you build an app\n\n\ndex2jar\n - converts the \nclasses.dex\n file to \n.jar\n file\n\n\njd-gui\n - Java decompiler which can be used to decompile \n.jar\n files and show the pseudo-code contained in them.", 
+            "title": "02 Hardcoding Issues"
+        }, 
+        {
+            "location": "/Training/DIVA/02_Hardcoding_Issues/#hardcoding-issues", 
+            "text": "When you look at the second challenge, the objective says  to find out what is hardcoded and where   There are different ways to check the hardcoded values in an Android app, but most popular method is to  decompile the APK file  and look at the pseudo-source code.  Before directly jumping into decompilation tools, lets learn a few basics.  APK is a package file format used by Android operating system. One could view the contents of the APK file by just unzipping it. Android apps are coded in Java, but when you compile the app using Android Studio, the java code is converted to Dalvik bytecode instead of Java bytecode. All the Java code is collectively compiled into a single Dalvik bytecode file called  classes.dex . Inorder to view the code of an app, we have to decompile the  classes.dex  file.  Let's start hunting for the hardcoded value.  Right click the apk file and click  Extract Here  option to unzip the file.   Now the contents will be in the directory  jakhar.aseem.diva-1.apk_FILES . ( It may differ in your case as the folder is created as per the apk file's name. ) Enter the folder and you can see a few folders and files.   As mentioned before, to view the code we have to decompile  classes.dex  file. We can use a tool called  dex2jar . It converts Android  .dex  file to Java  .jar  file. Execute  d2j-dex2jar.sh classes.dex . The command creates a new file  classes-dex2jar.jar   Now we can use a Java decompiler to view the code in the created  .jar  file. Execute  jd-gui classes-dex2jar.jar . This command create a GUI window and displays the Java pseudo-code of the  classes-dex2jar.jar  file. From the name of the challenge  we understand that its class name would be something like HardcodeActivity.class . Click on the class file. On viewing the code, it is clearly visible that the app checks for the value  vendorsecretkey .   Type the key in the Android app.", 
+            "title": "Hardcoding Issues"
+        }, 
+        {
+            "location": "/Training/DIVA/02_Hardcoding_Issues/#takeaway", 
+            "text": "APK is a file packaging format and could be unzipped  Java gets compiled to Dalvik bytecode when you build an app  dex2jar  - converts the  classes.dex  file to  .jar  file  jd-gui  - Java decompiler which can be used to decompile  .jar  files and show the pseudo-code contained in them.", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/03_Insecure_Data_Storage_P1/", 
+            "text": "Insecure Data Storage - Part 1\n\n\nWhen you click on \nInsecure Data Storage - Part 1\n, you would see the following screen.\n\n\n\n\nIt resembles a password manager, which stores user's credentials. Let's enter the credentials.\n\n\n\n\nAll the data of Android apps are stored under the location \n/data/data/\n. The Android OS creates unique directories for each app. The name of the directory is the same as the package name. For DIVA app, the package name is: \njakhar.aseem.diva\n.\n\n\nUse Android Debug Bridge (\nadb\n) tool to connect to the emulator or physical device in which the app is running. Execute \nadb shell\n.\n\n\n\n\nNOTE\n: When you connect to an emulator, it gives you \nroot\n access. If you are using a physical device, make sure it is rooted. \nIf not, you cannot access \n/data/data\n directory\n.\n\n\n\n\nMove to the directory where are the DIVA app's data is stored. Execute \ncd /data/data/jakhar.aseem.diva/\n.\n\n\n\n\nLet's check if any file was recently modified. Execute the command \nls -la\n.\n\n\n\n\nVoila ! We could see that the folder \nshared_prefs\n was recently modified.\n\n\nShared Preference\n is one among the different ways of storing data of an Android application. Shared Preferences allow you to save and retrieve data in the form of \nkey, value pair\n.\n\n\nListing the files inside the \nshared_prefs\n directory, we can see a file \njakhar.aseem.diva_preferences.xml\n.\n\n\n\n\nLet's look at the contents of the file. Execute \ncat jakhar.aseem.diva_preferences.xml\n.\n\n\n\n\nFinally, we got the credentials.\n\n\nTakeaway\n\n\n\n\nEmulators allow you to start the \nadb shell\n as \nroot\n user, whereas you have to manually root the physical device to get \nroot\n level permissions.\n\n\nThe data of an Android application is stored at the location \n/data/data/\npackage_name\n. No app can access other app's data. Only the respective app and \nroot\n user could access the contents in the directory.\n\n\nShared Preference\n is a way to store data of an Android app in the form of value, key pair. It stores these values under \n/data/data/\npackage_name\n/shared_prefs\n directory.", 
+            "title": "03 Insecure Data Storage P1"
+        }, 
+        {
+            "location": "/Training/DIVA/03_Insecure_Data_Storage_P1/#insecure-data-storage-part-1", 
+            "text": "When you click on  Insecure Data Storage - Part 1 , you would see the following screen.   It resembles a password manager, which stores user's credentials. Let's enter the credentials.   All the data of Android apps are stored under the location  /data/data/ . The Android OS creates unique directories for each app. The name of the directory is the same as the package name. For DIVA app, the package name is:  jakhar.aseem.diva .  Use Android Debug Bridge ( adb ) tool to connect to the emulator or physical device in which the app is running. Execute  adb shell .   NOTE : When you connect to an emulator, it gives you  root  access. If you are using a physical device, make sure it is rooted.  If not, you cannot access  /data/data  directory .   Move to the directory where are the DIVA app's data is stored. Execute  cd /data/data/jakhar.aseem.diva/ .   Let's check if any file was recently modified. Execute the command  ls -la .   Voila ! We could see that the folder  shared_prefs  was recently modified.  Shared Preference  is one among the different ways of storing data of an Android application. Shared Preferences allow you to save and retrieve data in the form of  key, value pair .  Listing the files inside the  shared_prefs  directory, we can see a file  jakhar.aseem.diva_preferences.xml .   Let's look at the contents of the file. Execute  cat jakhar.aseem.diva_preferences.xml .   Finally, we got the credentials.", 
+            "title": "Insecure Data Storage - Part 1"
+        }, 
+        {
+            "location": "/Training/DIVA/03_Insecure_Data_Storage_P1/#takeaway", 
+            "text": "Emulators allow you to start the  adb shell  as  root  user, whereas you have to manually root the physical device to get  root  level permissions.  The data of an Android application is stored at the location  /data/data/ package_name . No app can access other app's data. Only the respective app and  root  user could access the contents in the directory.  Shared Preference  is a way to store data of an Android app in the form of value, key pair. It stores these values under  /data/data/ package_name /shared_prefs  directory.", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/04_Insecure_Data_Storage_P2/", 
+            "text": "Insecure Data Storage - Part 2\n\n\nWhen you click on \nInsecure Data Storage - Part 2\n, you would see the following screen.\n\n\n\n\nIt's view is similar to the previous challenge. Let's enter some credentials.\n\n\n\n\nWe get a message stating that \n3rd party credentials saved successfully\n.\n\n\nLet's check the pseudocode of this activity with the help of \ndex2jar and jd-gui\n.\n\n\n\n\n\n\nFrom the code we can understand that the activity creates a database \nids2\n if it doesn't exist. Then creates a table \nmyuser\n which holds the strings \nuser\n and \npassword\n. In the function \nsaveCredentials()\n, the app inserts the credentials into the table.\n\n\nIn Android, \nsqlite3\n database format is used to store data as they are lightweight and runs on low memory devices. The databases of any app are stored in the location \n/data/data/\npackage_name\n/databases\n where \npackage_name\n is the unique name for each Android app.\n\n\nConnect the emulator or the physical device in which the DIVA app is running. Make sure that you are \nroot\n user. Go to the directory at \n/data/data/jakhar.aseem.diva/databases\n and check if there is any database with the name \nids2\n.\n\n\n\n\nThen execute the command \nsqlite3 ids2\n to open the database.\n\n\n\n\n\n\nNOTE:\n \nsqlite3\n binary is pre-installed in most of the Android emulators and devices. If your physical device doesn't contain this binary, then try to pull the database to the local system with the help of adb (\nadb pull /data/data/jakhar.aseem.databases/ids2\n). Then use a local sqlite database management tool like \nsqlitebrowser\n to view the contents.\n\n\n\n\nType \n.tables\n and hit enter to view the tables created.\n\n\n\n\nRun the query \n.schema myuser\n to view the schema of the table.\n\n\n\n\nRun the query \nselect user, password from myuser\n to get all the stored credentials.\n\n\n\n\n\n\nNOTE:\n Running the query \n.dump\n will dump all the previously executed queries of a database.\n\n\n\n\n\n\nAlternate way:\n\n\nIf we had seen the most recently modified file with the help of \nls -la\n, we shall have understood that a file under \ndatabases\n folder had been modified. This method didn't require the decompilation of the app to view source code.\n\n\n\n\nTakeaway\n\n\n\n\nAndroid uses \nsqlite3\n databases to store the data\n\n\nThe databases of apps are stored under \n/data/data/\npackage_name\n/databases\n directory\n\n\nUsing \nsqlite3\n in Android we could view (and manage) the data inside the database\n\n\n.tables\n - to view tables\n\n\n.schema \ntablename\n - to view the schema of the table\n\n\n.dump\n - to dump all the executed queries in the database", 
+            "title": "04 Insecure Data Storage P2"
+        }, 
+        {
+            "location": "/Training/DIVA/04_Insecure_Data_Storage_P2/#insecure-data-storage-part-2", 
+            "text": "When you click on  Insecure Data Storage - Part 2 , you would see the following screen.   It's view is similar to the previous challenge. Let's enter some credentials.   We get a message stating that  3rd party credentials saved successfully .  Let's check the pseudocode of this activity with the help of  dex2jar and jd-gui .    From the code we can understand that the activity creates a database  ids2  if it doesn't exist. Then creates a table  myuser  which holds the strings  user  and  password . In the function  saveCredentials() , the app inserts the credentials into the table.  In Android,  sqlite3  database format is used to store data as they are lightweight and runs on low memory devices. The databases of any app are stored in the location  /data/data/ package_name /databases  where  package_name  is the unique name for each Android app.  Connect the emulator or the physical device in which the DIVA app is running. Make sure that you are  root  user. Go to the directory at  /data/data/jakhar.aseem.diva/databases  and check if there is any database with the name  ids2 .   Then execute the command  sqlite3 ids2  to open the database.    NOTE:   sqlite3  binary is pre-installed in most of the Android emulators and devices. If your physical device doesn't contain this binary, then try to pull the database to the local system with the help of adb ( adb pull /data/data/jakhar.aseem.databases/ids2 ). Then use a local sqlite database management tool like  sqlitebrowser  to view the contents.   Type  .tables  and hit enter to view the tables created.   Run the query  .schema myuser  to view the schema of the table.   Run the query  select user, password from myuser  to get all the stored credentials.    NOTE:  Running the query  .dump  will dump all the previously executed queries of a database.    Alternate way:  If we had seen the most recently modified file with the help of  ls -la , we shall have understood that a file under  databases  folder had been modified. This method didn't require the decompilation of the app to view source code.", 
+            "title": "Insecure Data Storage - Part 2"
+        }, 
+        {
+            "location": "/Training/DIVA/04_Insecure_Data_Storage_P2/#takeaway", 
+            "text": "Android uses  sqlite3  databases to store the data  The databases of apps are stored under  /data/data/ package_name /databases  directory  Using  sqlite3  in Android we could view (and manage) the data inside the database  .tables  - to view tables  .schema  tablename  - to view the schema of the table  .dump  - to dump all the executed queries in the database", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/05_Insecure_Data_Storage_P3/", 
+            "text": "Insecure Data Storage - Part 3\n\n\nWhen you click on \nInsecure Data Storage - Part 3\n, you will be greeted by the following screen:\n\n\n\n\nIt's view is similar to \nChallenge 3\n and \nChallenge 4\n. Let's go ahead and enter some credentials.\n\n\n\n\nWe get a message stating that \n3rd party credentials saved successfully\n.\n\n\nLet's check the pseudocode of this activity with the help of \ndex2jar and jd-gui\n. We can find that the code for this challenge is stored in \nInsecureDataStorage3Activity.class\n.\n\n\n\n\nAfter looking at the code, we can understand that the app creates a temporary file whose name starts with \nuinfo\n and then writes the credentials to it. After finishing the task, it prints out the message \n3rd party credentials saved successfully\n.\n\n\nIn Android, temporary files are stored within the package's directory at \n/data/data\n. Move to \n/data/data/jakhar.aseem.diva\n location to see if any temporary file prepended with \nuinfo\n is present.\n\n\n\n\nCheck the contents of the file.\n\n\n\n\nWe finally got the stored credentials.\n\n\nTakeaway\n\n\n\n\nTemporary files of any app are generally created inside \n/data/data/\npackage\n directory where \npackage\n is the unique package name of the app.", 
+            "title": "05 Insecure Data Storage P3"
+        }, 
+        {
+            "location": "/Training/DIVA/05_Insecure_Data_Storage_P3/#insecure-data-storage-part-3", 
+            "text": "When you click on  Insecure Data Storage - Part 3 , you will be greeted by the following screen:   It's view is similar to  Challenge 3  and  Challenge 4 . Let's go ahead and enter some credentials.   We get a message stating that  3rd party credentials saved successfully .  Let's check the pseudocode of this activity with the help of  dex2jar and jd-gui . We can find that the code for this challenge is stored in  InsecureDataStorage3Activity.class .   After looking at the code, we can understand that the app creates a temporary file whose name starts with  uinfo  and then writes the credentials to it. After finishing the task, it prints out the message  3rd party credentials saved successfully .  In Android, temporary files are stored within the package's directory at  /data/data . Move to  /data/data/jakhar.aseem.diva  location to see if any temporary file prepended with  uinfo  is present.   Check the contents of the file.   We finally got the stored credentials.", 
+            "title": "Insecure Data Storage - Part 3"
+        }, 
+        {
+            "location": "/Training/DIVA/05_Insecure_Data_Storage_P3/#takeaway", 
+            "text": "Temporary files of any app are generally created inside  /data/data/ package  directory where  package  is the unique package name of the app.", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/06_Insecure_Data_Storage_P4/", 
+            "text": "Insecure Data Storage - Part 4\n\n\nWe have now arrived at the last part in Insecure Data Storage challenge series. If you click on  \nInsecure Data Storage - Part 4\n, you would see the following:\n\n\n\n\nLet's enter credentials as we did in \nChallenge 3\n, \nChallenge 4\n and \nChallenge 5\n.\n\n\n\n\nWe got a message stating that \n3rd party credentials saved successfully\n.\n\n\nLet's check the pseudocode of this activity with the help of \ndex2jar and jd-gui\n. We can find that the code for this challenge is stored in \nInsecureDataStorage4Activity.class\n.\n\n\n\n\nSomething looks interesting. The source code creates an object to write files to the external storage. Then it gets the credentials from the user and stores that at \n/.uinfo.txt\n.\n\n\n\n\nHere, \n/\n doesn't mean the root folder. Why ?\n\n\nAs you can see from the source code that an object (\nlocalObject2\n) which utilizes external storage is created. Then that object is used to write the data to the file located at \nroot directory in external storage.\n\n\n\n\nIn Android, external storage is mounted at \n/sdcard/\n location. So \n/.uinfo.txt\n refers to the actual location \n/sdcard/.uinfo.txt\n.\n\n\nLet's connect to the emulator or physical device using adb and check if the file \n.uinfo.txt\n is present at the location.\n\n\n\n\nLet's check its contents.\n\n\n\n\nVoila ! We cracked the challenge.\n\n\n\n\nNOTE:\n The file is prepended with a dot (\n.\n) which means it is hidden. To view all the files (including hidden) always use the command \nls -a\n.\n\n\n\n\nTakeaway\n\n\n\n\nWhen you are running an emulator, make sure that you have mounted a virtual SD card. If not, we might miss out some notable actions of Android apps.\n\n\nFiles written to the external storage could be read by other apps which have \nREAD_EXTERNAL_STORAGE\n permission.\n\n\nWhen you are pentesting an Android app, always execute \nls -la\n to see files in a directory. It lets you see which files have been recently modified and shows the files which are intentionally hidden.", 
+            "title": "06 Insecure Data Storage P4"
+        }, 
+        {
+            "location": "/Training/DIVA/06_Insecure_Data_Storage_P4/#insecure-data-storage-part-4", 
+            "text": "We have now arrived at the last part in Insecure Data Storage challenge series. If you click on   Insecure Data Storage - Part 4 , you would see the following:   Let's enter credentials as we did in  Challenge 3 ,  Challenge 4  and  Challenge 5 .   We got a message stating that  3rd party credentials saved successfully .  Let's check the pseudocode of this activity with the help of  dex2jar and jd-gui . We can find that the code for this challenge is stored in  InsecureDataStorage4Activity.class .   Something looks interesting. The source code creates an object to write files to the external storage. Then it gets the credentials from the user and stores that at  /.uinfo.txt .   Here,  /  doesn't mean the root folder. Why ?  As you can see from the source code that an object ( localObject2 ) which utilizes external storage is created. Then that object is used to write the data to the file located at  root directory in external storage.   In Android, external storage is mounted at  /sdcard/  location. So  /.uinfo.txt  refers to the actual location  /sdcard/.uinfo.txt .  Let's connect to the emulator or physical device using adb and check if the file  .uinfo.txt  is present at the location.   Let's check its contents.   Voila ! We cracked the challenge.   NOTE:  The file is prepended with a dot ( . ) which means it is hidden. To view all the files (including hidden) always use the command  ls -a .", 
+            "title": "Insecure Data Storage - Part 4"
+        }, 
+        {
+            "location": "/Training/DIVA/06_Insecure_Data_Storage_P4/#takeaway", 
+            "text": "When you are running an emulator, make sure that you have mounted a virtual SD card. If not, we might miss out some notable actions of Android apps.  Files written to the external storage could be read by other apps which have  READ_EXTERNAL_STORAGE  permission.  When you are pentesting an Android app, always execute  ls -la  to see files in a directory. It lets you see which files have been recently modified and shows the files which are intentionally hidden.", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/07_Input_Validation_Issues_P1/", 
+            "text": "Input Validation Issues - Part 1\n\n\nWhen you click on  \nInput Validation Issues - Part 1\n, you would see the following:\n\n\n\n\nThere's a pretty long hint for this challenge, but the gist is that there is \nno input validation\n. Let's provide some input.\n\n\n\n\nNo results. You can try with other random inputs, but you will get a error messge \nUser: (\nINPUT\n) not found\n. But when you type the name of the app: \ndiva\n, you get a different message which includes the details of the account.\n\n\n\n\nRing any bells ?\n\n\nIn this challenge, the input is taken and checked against some data (most probably present in a database) and displays the credentials if the input user exists. But let's confirm this.\n\n\nLet's check the pseudocode of this activity with the help of \ndex2jar and jd-gui\n. We can find that the code for this challenge is stored in \nSQLInjectionActivity.class\n.\n\n\nFrom the activity name itself, we can understand that its vulnerable to SQL Injection. Here's how the activity parses the input:\n\n\n\n\nSo the query is \nSELECT * FROM sqliuser WHERE user = ' + \nuser_input\n + '\n.\n\n\nWhen you enter some input, say \nandroid\n, the SQL query is rendered as \nSELECT * FROM sqliuser WHERE user = 'android'\n. If you don't understand this query, all it says is \nselect all the data from the sqliuser table in the database where the user value is android\n.\n\n\nIf the value \nandroid\n is present in the table \nsqliuser\n, the condition becomes \nTRUE\n, else it becomes \nFALSE\n. In boolean terms, true can be denoted by 1 and false by 0.\n\n\nTo exploit the vulnerability, we have should make the condition true. We can use \nOR\n operation. The beauty of \nOR\n is that if any one parameter is true, the result is true.\n\n\nSo our malicious payload will be \n' OR 1\n. But we have one error, with the above payload. The query becomes: \nSELECT * FROM sqliuser WHERE user = '' OR 1 '\n. We have a quote (\n'\n) which ruins the query. We have to comment it out. So we use SQL's comment tags \n--\n.\n\n\nNow our malicious payload is \ninput' OR 1--\n. Let's input it.\n\n\n\n\nVoila ! We got the credentials of all the existing users.\n\n\nThe prepended text in the payload doesnt matter. We need not add any text. Even the input \n' OR 1--\n works.\n\n\n\n\nTakeaway\n\n\n\n\nAndroid uses SQLite databases to store data\n\n\nIf an app uses a database, always check for input validation issues\n\n\nAdding just \n'\n as input may not create any noticeable errors like those in webapps\n\n\nParts of the payload \n' OR 1--\n:\n\n\n'\n : closes the open quote in the SQL query\n\n\nOR\n : OR operation, returns \ntrue\n if any one condition is true\n\n\n1\n : boolean form of \ntrue\n, so that the OR operation finally renders true\n\n\n--\n : comments out the remaining parts of the query\n\n\nThe payload \n' OR 1--\n works in most cases where there is one input", 
+            "title": "07 Input Validation Issues P1"
+        }, 
+        {
+            "location": "/Training/DIVA/07_Input_Validation_Issues_P1/#input-validation-issues-part-1", 
+            "text": "When you click on   Input Validation Issues - Part 1 , you would see the following:   There's a pretty long hint for this challenge, but the gist is that there is  no input validation . Let's provide some input.   No results. You can try with other random inputs, but you will get a error messge  User: ( INPUT ) not found . But when you type the name of the app:  diva , you get a different message which includes the details of the account.   Ring any bells ?  In this challenge, the input is taken and checked against some data (most probably present in a database) and displays the credentials if the input user exists. But let's confirm this.  Let's check the pseudocode of this activity with the help of  dex2jar and jd-gui . We can find that the code for this challenge is stored in  SQLInjectionActivity.class .  From the activity name itself, we can understand that its vulnerable to SQL Injection. Here's how the activity parses the input:   So the query is  SELECT * FROM sqliuser WHERE user = ' +  user_input  + ' .  When you enter some input, say  android , the SQL query is rendered as  SELECT * FROM sqliuser WHERE user = 'android' . If you don't understand this query, all it says is  select all the data from the sqliuser table in the database where the user value is android .  If the value  android  is present in the table  sqliuser , the condition becomes  TRUE , else it becomes  FALSE . In boolean terms, true can be denoted by 1 and false by 0.  To exploit the vulnerability, we have should make the condition true. We can use  OR  operation. The beauty of  OR  is that if any one parameter is true, the result is true.  So our malicious payload will be  ' OR 1 . But we have one error, with the above payload. The query becomes:  SELECT * FROM sqliuser WHERE user = '' OR 1 ' . We have a quote ( ' ) which ruins the query. We have to comment it out. So we use SQL's comment tags  -- .  Now our malicious payload is  input' OR 1-- . Let's input it.   Voila ! We got the credentials of all the existing users.  The prepended text in the payload doesnt matter. We need not add any text. Even the input  ' OR 1--  works.", 
+            "title": "Input Validation Issues - Part 1"
+        }, 
+        {
+            "location": "/Training/DIVA/07_Input_Validation_Issues_P1/#takeaway", 
+            "text": "Android uses SQLite databases to store data  If an app uses a database, always check for input validation issues  Adding just  '  as input may not create any noticeable errors like those in webapps  Parts of the payload  ' OR 1-- :  '  : closes the open quote in the SQL query  OR  : OR operation, returns  true  if any one condition is true  1  : boolean form of  true , so that the OR operation finally renders true  --  : comments out the remaining parts of the query  The payload  ' OR 1--  works in most cases where there is one input", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/08_Input_Validation_Issues_P2/", 
+            "text": "Input Validation Issues - Part 2\n\n\nThis challenge is a bit different from the \nprevious one\n.\n\n\n\n\nLet's enter a proper URL.\n\n\n\n\nWhen you click on \nView\n, the website is opened at the lower half of the app. Let's remove the scheme \nhttps://\n from the URL.\n\n\n\n\nThere is a blank screen. We can understand that the app is not appending the scheme \nhttp://\n or \nhttps://\n to the input. Let's try again with some random input.\n\n\n\n\nWe get an error \nnet::ERR_UNKNOWN_URL_SCHEME\n. So the app completely depends on the user input and runs that irrespective of the entered scheme.\n\n\nAndroid browsers also accepts another scheme \nfile://\n. This scheme is used to view the contents of files inside the filesystem. Let's give it a try.\n\n\n\n\nPositive results! The app accepts the \nfile://\n scheme. Now let's try to access a \nprevious challenge's\n file located at \n/sdcard/.uinfo.txt\n.\n\n\n\n\nVoila ! We cracked the challenge.\n\n\nTakeaway\n\n\n\n\nWhenever an app asks for a URL, try providing \nfile://\n scheme. If it renders the contents of a file at a known location, this is a vulnerability", 
+            "title": "08 Input Validation Issues P2"
+        }, 
+        {
+            "location": "/Training/DIVA/08_Input_Validation_Issues_P2/#input-validation-issues-part-2", 
+            "text": "This challenge is a bit different from the  previous one .   Let's enter a proper URL.   When you click on  View , the website is opened at the lower half of the app. Let's remove the scheme  https://  from the URL.   There is a blank screen. We can understand that the app is not appending the scheme  http://  or  https://  to the input. Let's try again with some random input.   We get an error  net::ERR_UNKNOWN_URL_SCHEME . So the app completely depends on the user input and runs that irrespective of the entered scheme.  Android browsers also accepts another scheme  file:// . This scheme is used to view the contents of files inside the filesystem. Let's give it a try.   Positive results! The app accepts the  file://  scheme. Now let's try to access a  previous challenge's  file located at  /sdcard/.uinfo.txt .   Voila ! We cracked the challenge.", 
+            "title": "Input Validation Issues - Part 2"
+        }, 
+        {
+            "location": "/Training/DIVA/08_Input_Validation_Issues_P2/#takeaway", 
+            "text": "Whenever an app asks for a URL, try providing  file://  scheme. If it renders the contents of a file at a known location, this is a vulnerability", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/09_Access_Control_Issues_P1/", 
+            "text": "Access Control Issues - Part 1\n\n\nWhen we click on \nAccess Control Issues - Part 1\n, apart from the \nObjective\n and \nHint\n you would see a single button - \nVIEW API CREDENTIALS\n\n\n\n\nWhen you click on the button, an activity pops up to display the so called API credentials.\n\n\n\n\nIn Android, an activity represents a single screen with a user interface (just like window or frame of Java). Generally speaking, anything which the user could touch and interact is called activity. Each activity has it's own unique name.\n\n\nNow, we are left with one question - \nHow to find the name of the activity which just popped up?\n\n\nThe answer is logs. Whenever an activity is launched, the name of the activity is logged. Let's check the logs using \nadb shell logcat\n command.\n\n\n\n\nWe found the name of the recently launched activity - \njakhar.aseem.diva/.APICredsActivity\n.\n\n\n\n\nNOTE:\n The name of any activity is always appended with the package name. This is done so that there is no confusion when an activity is invoked. Activities of 2 apps can have same name, but the package names cannot be the same.\n\n\n\n\nIn Android, we have a utility \nam\n (Activity Manager) which allows us to manage activities.\n\n\nLet's check if the activity could be invoked externally. Use the command: \nadb shell am start -n jakhar.aseem.diva/.APICredsActivity\n\n\n\n\nWhen we look at the emulator / device, we could see the activity that displays API Credentials pops up.\n\n\n\n\nThis activity could be invoked externally, which means other apps on the device could also invoke it without explicit permissions.\n\n\nHow to find if the activity was invoked externally and through DIVA app ?\n\n\nWhen you press the \nOverview\n button, you could see how the activity was launched. In the first case, DIVA app had invoked the activity, but in second it was externally invoked.\n\n\n \n\n\nTakeaway\n\n\n\n\nActivity represents a screen with a user interface\n\n\nWhenever an activity is launched, it is logged and could be viewed using \nadb shell logcat\n command\n\n\nAndroid comes with activity manager (\nam\n) which can be used to manage the activities\n\n\nCommand to start an activity: \nadb shell am start -n \npackage_name\n/\nactivity_name\n\n\nam\n - activity manager\n\n\nstart\n - start the activity\n\n\n-n\n - name of the activity\n\n\nClicking the overview button would help us understand what launched the activity", 
+            "title": "09 Access Control Issues P1"
+        }, 
+        {
+            "location": "/Training/DIVA/09_Access_Control_Issues_P1/#access-control-issues-part-1", 
+            "text": "When we click on  Access Control Issues - Part 1 , apart from the  Objective  and  Hint  you would see a single button -  VIEW API CREDENTIALS   When you click on the button, an activity pops up to display the so called API credentials.   In Android, an activity represents a single screen with a user interface (just like window or frame of Java). Generally speaking, anything which the user could touch and interact is called activity. Each activity has it's own unique name.  Now, we are left with one question -  How to find the name of the activity which just popped up?  The answer is logs. Whenever an activity is launched, the name of the activity is logged. Let's check the logs using  adb shell logcat  command.   We found the name of the recently launched activity -  jakhar.aseem.diva/.APICredsActivity .   NOTE:  The name of any activity is always appended with the package name. This is done so that there is no confusion when an activity is invoked. Activities of 2 apps can have same name, but the package names cannot be the same.   In Android, we have a utility  am  (Activity Manager) which allows us to manage activities.  Let's check if the activity could be invoked externally. Use the command:  adb shell am start -n jakhar.aseem.diva/.APICredsActivity   When we look at the emulator / device, we could see the activity that displays API Credentials pops up.   This activity could be invoked externally, which means other apps on the device could also invoke it without explicit permissions.  How to find if the activity was invoked externally and through DIVA app ?  When you press the  Overview  button, you could see how the activity was launched. In the first case, DIVA app had invoked the activity, but in second it was externally invoked.", 
+            "title": "Access Control Issues - Part 1"
+        }, 
+        {
+            "location": "/Training/DIVA/09_Access_Control_Issues_P1/#takeaway", 
+            "text": "Activity represents a screen with a user interface  Whenever an activity is launched, it is logged and could be viewed using  adb shell logcat  command  Android comes with activity manager ( am ) which can be used to manage the activities  Command to start an activity:  adb shell am start -n  package_name / activity_name  am  - activity manager  start  - start the activity  -n  - name of the activity  Clicking the overview button would help us understand what launched the activity", 
+            "title": "Takeaway"
+        }, 
+        {
+            "location": "/Training/DIVA/10_Access_Control_Issues_P2/", 
+            "text": "Access Control Issues - Part 2\n\n\nWhen we click on \nAccess Control Issues - Part 2\n, we would stumble upon an activity with two radio buttons \nRegister Now\n and \nAlready Registered\n and a single button - \nVIEW TVEETER API CREDENTIALS\n\n\n\n\nLet's click on \nRegister Now\n and then click \nView Tveeter API Credentials\n. It asks us to enter a PIN.\n\n\n\n\nOn entering some random PIN, we get a toast message - \nInvalid PIN. Please try again.\n\n\n\n\nThe logs (accessed by \nadb shell logcat\n) show that the \nAPICreds2Activity\n is displayed when you clicked the button.\n\n\n\n\nLet's go back and select \nAlready Registered\n radio button. We can see the following:\n\n\n\n\nHaving a look again at the logs shows the following:\n\n\n\n\nIn both the above cases, \nAPICreds2Activity\n activity is invoked. So there might be some logic in the app which decides the content of the activity.\n\n\nLet's \ndecompile the app\n using \napktool\n using the command \napktool d jakhar.aseem.diva-1.apk\n. On checking the \nAndroidManifest.xml\n, we see the following:\n\n\n\n\nWe can see that there is an activity \njakhar.aseem.diva.APICreds2Activity\n defined along with an \nintent-filter\n.\n\n\nBefore cracking the challenge, let's understand the basics:\n\n\nActivity\n represents a screen with a user interface. All the activites should be declared in \nAndroidManifest.xml\n - which turns out to be a binary XML file in the apk file. You can't just use an editor to view the file. You have to decompile the apk file using tools like \napktool\n to get a readable version of the file.\n\n\nIntents\n are message objects in Android system. It allows the communication of two or more apps. An \nintent-filter\n of an app specifies the type of intents it accepts based on the intent's action, data, and category. When an \nintent-filter\n is used, the activity is exported by default, i.e. \nany other component could invoke the activity\n.\n\n\nBack to the challenge.\n\n\nWe assumed that there might be some internal logic. Let's look at the source code with the help of \nDex2Jar and JD-gui\n. On opening the \nAPICreds2Activity.class\n file, we can see that there is a check on the string (with ID \n2131099686\n).\n\n\n\n\nHere \ngetBooleanExtra()\n is used. If the \ninverse of the function's result\n is true, then the API keys are displayed.\n\n\nHow to get the string using it's ID ?\n\n\nWhen you use \ndex2jar\n and \njd-gui\n, it gives you a pseudo-code. In this the string and some other resources are generally stored in \nR.class\n. On searching the file for the ID \n2131099686\n we can see that it denotes the string ID \nchk_pin\n.\n\n\n\n\nTo get the value of \nchk_pin\n, open \n/res/values/strings.xml\n in the source code and search for the ID.\n\n\n\n\nWe can use the activity manager (\nam\n) to invoke the activity with extra Boolean, with the command: \nadb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.action.VIEW_CREDS2 --ez check_pin false\n\n\n\n\nVoila, we invoked the activity with the required action.\n\n\n\n\nChallenge cracked !\n\n\nTakeaway\n\n\n\n\nActivity\n represents a screen with a user interface\n\n\nInformation about all the activites are declared in \nAndroidManifest.xml\n\n\nIntents\n are message objects\n\n\nintent-filter\n specifies the type of intents it accepts. If a activity uses this, then it is exported by default.", 
+            "title": "10 Access Control Issues P2"
+        }, 
+        {
+            "location": "/Training/DIVA/10_Access_Control_Issues_P2/#access-control-issues-part-2", 
+            "text": "When we click on  Access Control Issues - Part 2 , we would stumble upon an activity with two radio buttons  Register Now  and  Already Registered  and a single button -  VIEW TVEETER API CREDENTIALS   Let's click on  Register Now  and then click  View Tveeter API Credentials . It asks us to enter a PIN.   On entering some random PIN, we get a toast message -  Invalid PIN. Please try again.   The logs (accessed by  adb shell logcat ) show that the  APICreds2Activity  is displayed when you clicked the button.   Let's go back and select  Already Registered  radio button. We can see the following:   Having a look again at the logs shows the following:   In both the above cases,  APICreds2Activity  activity is invoked. So there might be some logic in the app which decides the content of the activity.  Let's  decompile the app  using  apktool  using the command  apktool d jakhar.aseem.diva-1.apk . On checking the  AndroidManifest.xml , we see the following:   We can see that there is an activity  jakhar.aseem.diva.APICreds2Activity  defined along with an  intent-filter .  Before cracking the challenge, let's understand the basics:  Activity  represents a screen with a user interface. All the activites should be declared in  AndroidManifest.xml  - which turns out to be a binary XML file in the apk file. You can't just use an editor to view the file. You have to decompile the apk file using tools like  apktool  to get a readable version of the file.  Intents  are message objects in Android system. It allows the communication of two or more apps. An  intent-filter  of an app specifies the type of intents it accepts based on the intent's action, data, and category. When an  intent-filter  is used, the activity is exported by default, i.e.  any other component could invoke the activity .  Back to the challenge.  We assumed that there might be some internal logic. Let's look at the source code with the help of  Dex2Jar and JD-gui . On opening the  APICreds2Activity.class  file, we can see that there is a check on the string (with ID  2131099686 ).   Here  getBooleanExtra()  is used. If the  inverse of the function's result  is true, then the API keys are displayed.  How to get the string using it's ID ?  When you use  dex2jar  and  jd-gui , it gives you a pseudo-code. In this the string and some other resources are generally stored in  R.class . On searching the file for the ID  2131099686  we can see that it denotes the string ID  chk_pin .   To get the value of  chk_pin , open  /res/values/strings.xml  in the source code and search for the ID.   We can use the activity manager ( am ) to invoke the activity with extra Boolean, with the command:  adb shell am start -n jakhar.aseem.diva/.APICreds2Activity -a jakhar.aseem.diva.action.VIEW_CREDS2 --ez check_pin false   Voila, we invoked the activity with the required action.   Challenge cracked !", 
+            "title": "Access Control Issues - Part 2"
+        }, 
+        {
+            "location": "/Training/DIVA/10_Access_Control_Issues_P2/#takeaway", 
+            "text": "Activity  represents a screen with a user interface  Information about all the activites are declared in  AndroidManifest.xml  Intents  are message objects  intent-filter  specifies the type of intents it accepts. If a activity uses this, then it is exported by default.", 
+            "title": "Takeaway"
+        }
+    ]
+}
